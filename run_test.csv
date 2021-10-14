@@ -1,0 +1,1591 @@
+iteration,bench_name,event,result
+1,bt.S.x,cpu-cycles,"1,439,780,285",2.483 GHz,(36.04%)
+1,bt.S.x,instructions,"1,098,448,182",0.76,insn per cycle
+1,bt.S.x,stalled cycles per insn,0.12,(45.05%)
+1,bt.S.x,cache-references,"6,876,110",11.858 M/sec,(45.87%)
+1,bt.S.x,cache-misses,"251,617",3.659 % of all cache refs,(31.14%)
+1,bt.S.x,branch-instructions,"190,704,113",328.880 M/sec,(42.07%)
+1,bt.S.x,branch-misses,"181,146",0.09% of all branches,(52.99%)
+1,bt.S.x,bus-cycles,<not supported>
+1,bt.S.x,stalled-cycles-frontend,"105,545,866",7.33% frontend cycles idle,(43.58%)
+1,bt.S.x,stalled-cycles-backend,"130,607,274",9.07% backend cycles idle,(43.37%)
+1,bt.S.x,ref-cycles,<not supported>
+1,bt.S.x,cpu-clock,579.82,msec,12.402 CPUs utilized
+1,bt.S.x,task-clock,579.90,msec,12.403 CPUs utilized
+1,bt.S.x,page-faults,421,0.726 K/sec
+1,bt.S.x,context-switches,220,0.379 K/sec
+1,bt.S.x,cpu-migrations,53,0.091 K/sec
+1,bt.S.x,minor-faults,421,0.726 K/sec
+1,bt.S.x,major-faults,0,0.000 K/sec
+1,bt.S.x,L1-dcache-loads,"513,986,309",886.400 M/sec,(53.70%)
+1,bt.S.x,L1-dcache-load-misses,"8,068,083",1.57% of all L1-dcache hits,(51.55%)
+1,bt.S.x,L1-dcache-stores,<not supported>
+1,bt.S.x,time-elapsed_(1),0.046753104,seconds
+1,bt.S.x,L1-dcache-store-misses,<not supported>
+1,bt.S.x,L1-dcache-prefetches,"10,948,936",(0.41%)
+1,bt.S.x,L1-dcache-prefetch-misses,0,(8.02%)
+1,bt.S.x,L1-icache-loads,"155,924,818",(20.22%)
+1,bt.S.x,L1-icache-load-misses,"264,753",0.17% of all L1-icache hits,(25.98%)
+1,bt.S.x,L1-icache-prefetches,330,(39.31%)
+1,bt.S.x,L1-icache-prefetch-misses,<not supported>
+1,bt.S.x,LLC-loads,"6,253,445",(40.11%)
+1,bt.S.x,LLC-load-misses,"338,753",5.42% of all LL-cache hits,(40.12%)
+1,bt.S.x,LLC-stores,"1,307,722",(25.53%)
+1,bt.S.x,LLC-store-misses,<not supported>
+1,bt.S.x,LLC-prefetches,<not supported>
+1,bt.S.x,LLC-prefetch-misses,<not supported>
+1,bt.S.x,dTLB-loads,"454,761,402",(35.16%)
+1,bt.S.x,dTLB-load-misses,"13,391",0.00% of all dTLB cache hits,(25.87%)
+1,bt.S.x,dTLB-stores,<not supported>
+1,bt.S.x,dTLB-store-misses,<not supported>
+1,bt.S.x,dTLB-prefetches,<not supported>
+1,bt.S.x,dTLB-prefetch-misses,<not supported>
+1,bt.S.x,iTLB-loads,"164,877,591",(13.73%)
+1,bt.S.x,time-elapsed_(1),0.037077294,seconds
+1,bt.S.x,iTLB-load-misses,"3,562"
+1,bt.S.x,branch-loads,"109,146,192"
+1,bt.S.x,branch-load-misses,"153,766"
+1,bt.S.x,node-loads,<not supported>
+1,bt.S.x,node-load-misses,<not supported>
+1,bt.S.x,node-stores,<not supported>
+1,bt.S.x,node-store-misses,<not supported>
+1,bt.S.x,node-prefetches,<not supported>
+1,bt.S.x,node-prefetch-misses,<not supported>
+1,bt.S.x,time-elapsed_(1),0.039902333,seconds
+1,cg.A.x,cpu-cycles,"12,445,482,115",2.471 GHz,(39.11%)
+1,cg.A.x,instructions,"9,875,088,336",0.79,insn per cycle
+1,cg.A.x,stalled cycles per insn,0.16,(49.00%)
+1,cg.A.x,cache-references,"857,741,726",170.292 M/sec,(49.35%)
+1,cg.A.x,cache-misses,"81,067,535",9.451 % of all cache refs,(30.39%)
+1,cg.A.x,branch-instructions,"1,714,602,379",340.408 M/sec,(40.52%)
+1,cg.A.x,branch-misses,"17,119,722",1.00% of all branches,(50.83%)
+1,cg.A.x,bus-cycles,<not supported>
+1,cg.A.x,stalled-cycles-frontend,"884,987,522",7.11% frontend cycles idle,(40.72%)
+1,cg.A.x,stalled-cycles-backend,"1,629,263,262",13.09% backend cycles idle,(40.44%)
+1,cg.A.x,ref-cycles,<not supported>
+1,cg.A.x,cpu-clock,"5,036.84",msec,14.910 CPUs utilized
+1,cg.A.x,task-clock,"5,036.96",msec,14.911 CPUs utilized
+1,cg.A.x,page-faults,"12,286",0.002 M/sec
+1,cg.A.x,context-switches,679,0.135 K/sec
+1,cg.A.x,cpu-migrations,18,0.004 K/sec
+1,cg.A.x,minor-faults,"12,286",0.002 M/sec
+1,cg.A.x,major-faults,0,0.000 K/sec
+1,cg.A.x,L1-dcache-loads,"3,339,977,205",663.101 M/sec,(50.35%)
+1,cg.A.x,L1-dcache-load-misses,"726,490,478",21.75% of all L1-dcache hits,(49.95%)
+1,cg.A.x,L1-dcache-stores,<not supported>
+1,cg.A.x,time-elapsed_(1),0.337807686,seconds
+1,cg.A.x,L1-dcache-store-misses,<not supported>
+1,cg.A.x,L1-dcache-prefetches,"410,343,767",(17.80%)
+1,cg.A.x,L1-dcache-prefetch-misses,0,(18.16%)
+1,cg.A.x,L1-icache-loads,"2,712,559,113",(19.08%)
+1,cg.A.x,L1-icache-load-misses,"1,299,818",0.05% of all L1-icache hits,(19.18%)
+1,cg.A.x,L1-icache-prefetches,"135,225",(28.18%)
+1,cg.A.x,L1-icache-prefetch-misses,<not supported>
+1,cg.A.x,LLC-loads,"800,579,973",(27.39%)
+1,cg.A.x,LLC-load-misses,"79,037,322",9.87% of all LL-cache hits,(26.88%)
+1,cg.A.x,LLC-stores,"147,751,320",(17.91%)
+1,cg.A.x,LLC-store-misses,<not supported>
+1,cg.A.x,LLC-prefetches,<not supported>
+1,cg.A.x,LLC-prefetch-misses,<not supported>
+1,cg.A.x,dTLB-loads,"3,298,777,734",(26.82%)
+1,cg.A.x,dTLB-load-misses,"270,597",0.01% of all dTLB cache hits,(26.86%)
+1,cg.A.x,dTLB-stores,<not supported>
+1,cg.A.x,dTLB-store-misses,<not supported>
+1,cg.A.x,dTLB-prefetches,<not supported>
+1,cg.A.x,dTLB-prefetch-misses,<not supported>
+1,cg.A.x,iTLB-loads,"2,761,213,790",(26.75%)
+1,cg.A.x,time-elapsed_(1),0.338189238,seconds
+1,cg.A.x,iTLB-load-misses,"3,451"
+1,cg.A.x,branch-loads,"1,741,430,180"
+1,cg.A.x,branch-load-misses,"16,134,186"
+1,cg.A.x,node-loads,<not supported>
+1,cg.A.x,node-load-misses,<not supported>
+1,cg.A.x,node-stores,<not supported>
+1,cg.A.x,node-store-misses,<not supported>
+1,cg.A.x,node-prefetches,<not supported>
+1,cg.A.x,node-prefetch-misses,<not supported>
+1,cg.A.x,time-elapsed_(1),0.349822145,seconds
+1,dc.S.x,cpu-cycles,"439,140,200",2.396 GHz,(18.91%)
+1,dc.S.x,instructions,"390,178,412",0.89,insn per cycle
+1,dc.S.x,stalled cycles per insn,0.35,(25.49%)
+1,dc.S.x,cache-references,"7,489,308",40.855 M/sec,(27.64%)
+1,dc.S.x,cache-misses,"606,564",8.099 % of all cache refs,(49.22%)
+1,dc.S.x,branch-instructions,"52,498,375",286.388 M/sec,(66.99%)
+1,dc.S.x,branch-misses,"727,820",1.39% of all branches,(76.71%)
+1,dc.S.x,bus-cycles,<not supported>
+1,dc.S.x,stalled-cycles-frontend,"38,519,548",8.77% frontend cycles idle,(67.97%)
+1,dc.S.x,stalled-cycles-backend,"134,770,865",30.69% backend cycles idle,(36.26%)
+1,dc.S.x,ref-cycles,<not supported>
+1,dc.S.x,cpu-clock,183.28,msec,1.317 CPUs utilized
+1,dc.S.x,task-clock,183.34,msec,1.317 CPUs utilized
+1,dc.S.x,page-faults,"9,041",0.049 M/sec
+1,dc.S.x,context-switches,112,0.611 K/sec
+1,dc.S.x,cpu-migrations,9,0.049 K/sec
+1,dc.S.x,minor-faults,"9,041",0.049 M/sec
+1,dc.S.x,major-faults,0,0.000 K/sec
+1,dc.S.x,L1-dcache-loads,"120,395,232",656.777 M/sec,(40.63%)
+1,dc.S.x,L1-dcache-load-misses,"4,986,490",4.14% of all L1-dcache hits,(27.25%)
+1,dc.S.x,L1-dcache-stores,<not supported>
+1,dc.S.x,time-elapsed_(1),0.139216753,seconds
+1,dc.S.x,L1-dcache-store-misses,<not supported>
+1,dc.S.x,L1-dcache-prefetches,"8,465,199",(9.81%)
+1,dc.S.x,L1-dcache-prefetch-misses,0,(34.75%)
+1,dc.S.x,L1-icache-loads,"60,484,934",(59.93%)
+1,dc.S.x,L1-icache-load-misses,"871,447",1.44% of all L1-icache hits,(37.87%)
+1,dc.S.x,L1-icache-prefetches,"33,056",(41.81%)
+1,dc.S.x,L1-icache-prefetch-misses,<not supported>
+1,dc.S.x,LLC-loads,"7,732,640",(14.64%)
+1,dc.S.x,LLC-load-misses,"1,627,733",21.05% of all LL-cache hits,(11.76%)
+1,dc.S.x,LLC-stores,"4,625,790",(7.82%)
+1,dc.S.x,LLC-store-misses,<not supported>
+1,dc.S.x,LLC-prefetches,<not supported>
+1,dc.S.x,LLC-prefetch-misses,<not supported>
+1,dc.S.x,dTLB-loads,"182,805,792",(11.72%)
+1,dc.S.x,dTLB-load-misses,"117,437",0.06% of all dTLB cache hits,(11.71%)
+1,dc.S.x,dTLB-stores,<not supported>
+1,dc.S.x,dTLB-store-misses,<not supported>
+1,dc.S.x,dTLB-prefetches,<not supported>
+1,dc.S.x,dTLB-prefetch-misses,<not supported>
+1,dc.S.x,iTLB-loads,"112,152,000",(11.72%)
+1,dc.S.x,time-elapsed_(1),0.140399395,seconds
+1,dc.S.x,iTLB-load-misses,"1,360"
+1,dc.S.x,branch-loads,"62,118,673"
+1,dc.S.x,branch-load-misses,"726,343"
+1,dc.S.x,node-loads,<not supported>
+1,dc.S.x,node-load-misses,<not supported>
+1,dc.S.x,node-stores,<not supported>
+1,dc.S.x,node-store-misses,<not supported>
+1,dc.S.x,node-prefetches,<not supported>
+1,dc.S.x,node-prefetch-misses,<not supported>
+1,dc.S.x,time-elapsed_(1),0.132491823,seconds
+1,ep.A.x,cpu-cycles,"45,124,243,701",2.487 GHz,(39.56%)
+1,ep.A.x,instructions,"28,015,526,468",0.62,insn per cycle
+1,ep.A.x,stalled cycles per insn,0.36,(49.47%)
+1,ep.A.x,cache-references,"148,326,535",8.175 M/sec,(49.52%)
+1,ep.A.x,cache-misses,"3,593,505",2.423 % of all cache refs,(29.98%)
+1,ep.A.x,branch-instructions,"2,823,149,668",155.602 M/sec,(40.17%)
+1,ep.A.x,branch-misses,"73,429,937",2.60% of all branches,(50.34%)
+1,ep.A.x,bus-cycles,<not supported>
+1,ep.A.x,stalled-cycles-frontend,"642,732,333",1.42% frontend cycles idle,(40.53%)
+1,ep.A.x,stalled-cycles-backend,"10,214,896,227",22.64% backend cycles idle,(40.41%)
+1,ep.A.x,ref-cycles,<not supported>
+1,ep.A.x,cpu-clock,"18,143.21",msec,15.614 CPUs utilized
+1,ep.A.x,task-clock,"18,143.54",msec,15.615 CPUs utilized
+1,ep.A.x,page-faults,"4,355",0.240 K/sec
+1,ep.A.x,context-switches,"2,138",0.118 K/sec
+1,ep.A.x,cpu-migrations,26,0.001 K/sec
+1,ep.A.x,minor-faults,"4,355",0.240 K/sec
+1,ep.A.x,major-faults,0,0.000 K/sec
+1,ep.A.x,L1-dcache-loads,"10,662,084,480",587.657 M/sec,(50.29%)
+1,ep.A.x,L1-dcache-load-misses,"13,071,070",0.12% of all L1-dcache hits,(49.95%)
+1,ep.A.x,L1-dcache-stores,<not supported>
+1,ep.A.x,time-elapsed_(1),1.161965429,seconds
+1,ep.A.x,L1-dcache-store-misses,<not supported>
+1,ep.A.x,L1-dcache-prefetches,"133,875,542",(18.05%)
+1,ep.A.x,L1-dcache-prefetch-misses,0,(17.88%)
+1,ep.A.x,L1-icache-loads,"7,696,169,320",(17.84%)
+1,ep.A.x,L1-icache-load-misses,"2,034,862",0.03% of all L1-icache hits,(18.01%)
+1,ep.A.x,L1-icache-prefetches,"13,763",(27.15%)
+1,ep.A.x,L1-icache-prefetch-misses,<not supported>
+1,ep.A.x,LLC-loads,"148,315,903",(27.40%)
+1,ep.A.x,LLC-load-misses,"3,101,127",2.09% of all LL-cache hits,(27.52%)
+1,ep.A.x,LLC-stores,"63,305,845",(18.38%)
+1,ep.A.x,LLC-store-misses,<not supported>
+1,ep.A.x,LLC-prefetches,<not supported>
+1,ep.A.x,LLC-prefetch-misses,<not supported>
+1,ep.A.x,dTLB-loads,"10,680,402,206",(27.59%)
+1,ep.A.x,dTLB-load-misses,"18,088",0.00% of all dTLB cache hits,(27.52%)
+1,ep.A.x,dTLB-stores,<not supported>
+1,ep.A.x,dTLB-store-misses,<not supported>
+1,ep.A.x,dTLB-prefetches,<not supported>
+1,ep.A.x,dTLB-prefetch-misses,<not supported>
+1,ep.A.x,iTLB-loads,"7,711,014,585",(27.40%)
+1,ep.A.x,time-elapsed_(1),1.173591428,seconds
+1,ep.A.x,iTLB-load-misses,"2,508"
+1,ep.A.x,branch-loads,"2,816,785,510"
+1,ep.A.x,branch-load-misses,"73,494,685"
+1,ep.A.x,node-loads,<not supported>
+1,ep.A.x,node-load-misses,<not supported>
+1,ep.A.x,node-stores,<not supported>
+1,ep.A.x,node-store-misses,<not supported>
+1,ep.A.x,node-prefetches,<not supported>
+1,ep.A.x,node-prefetch-misses,<not supported>
+1,ep.A.x,time-elapsed_(1),1.172506708,seconds
+1,ft.S.x,cpu-cycles,"1,325,927,534",2.468 GHz,(34.65%)
+1,ft.S.x,instructions,"1,116,710,560",0.84,insn per cycle
+1,ft.S.x,stalled cycles per insn,0.18,(42.93%)
+1,ft.S.x,cache-references,"32,012,008",59.578 M/sec,(43.54%)
+1,ft.S.x,cache-misses,"606,390",1.894 % of all cache refs,(31.09%)
+1,ft.S.x,branch-instructions,"170,788,180",317.857 M/sec,(42.10%)
+1,ft.S.x,branch-misses,"594,989",0.35% of all branches,(53.80%)
+1,ft.S.x,bus-cycles,<not supported>
+1,ft.S.x,stalled-cycles-frontend,"85,124,674",6.42% frontend cycles idle,(45.11%)
+1,ft.S.x,stalled-cycles-backend,"198,224,552",14.95% backend cycles idle,(45.62%)
+1,ft.S.x,ref-cycles,<not supported>
+1,ft.S.x,cpu-clock,537.28,msec,11.719 CPUs utilized
+1,ft.S.x,task-clock,537.34,msec,11.721 CPUs utilized
+1,ft.S.x,page-faults,"3,143",0.006 M/sec
+1,ft.S.x,context-switches,191,0.355 K/sec
+1,ft.S.x,cpu-migrations,46,0.086 K/sec
+1,ft.S.x,minor-faults,"3,143",0.006 M/sec
+1,ft.S.x,major-faults,0,0.000 K/sec
+1,ft.S.x,L1-dcache-loads,"410,127,822",763.297 M/sec,(55.25%)
+1,ft.S.x,L1-dcache-load-misses,"10,250,534",2.50% of all L1-dcache hits,(52.00%)
+1,ft.S.x,L1-dcache-stores,<not supported>
+1,ft.S.x,time-elapsed_(1),0.045845799,seconds
+1,ft.S.x,L1-dcache-store-misses,<not supported>
+1,ft.S.x,L1-dcache-prefetches,"4,315,857",(6.77%)
+1,ft.S.x,L1-dcache-prefetch-misses,0,(19.67%)
+1,ft.S.x,L1-icache-loads,"152,879,036",(26.22%)
+1,ft.S.x,L1-icache-load-misses,"165,073",0.11% of all L1-icache hits,(25.78%)
+1,ft.S.x,L1-icache-prefetches,"1,174",(38.65%)
+1,ft.S.x,L1-icache-prefetch-misses,<not supported>
+1,ft.S.x,LLC-loads,"37,032,519",(38.23%)
+1,ft.S.x,LLC-load-misses,"1,118,750",3.02% of all LL-cache hits,(38.43%)
+1,ft.S.x,LLC-stores,"2,173,262",(23.43%)
+1,ft.S.x,LLC-store-misses,<not supported>
+1,ft.S.x,LLC-prefetches,<not supported>
+1,ft.S.x,LLC-prefetch-misses,<not supported>
+1,ft.S.x,dTLB-loads,"429,855,936",(28.78%)
+1,ft.S.x,dTLB-load-misses,"42,543",0.01% of all dTLB cache hits,(16.12%)
+1,ft.S.x,dTLB-stores,<not supported>
+1,ft.S.x,dTLB-store-misses,<not supported>
+1,ft.S.x,dTLB-prefetches,<not supported>
+1,ft.S.x,dTLB-prefetch-misses,<not supported>
+1,ft.S.x,iTLB-loads,"184,211,673",(5.35%)
+1,ft.S.x,time-elapsed_(1),0.040655463,seconds
+1,ft.S.x,iTLB-load-misses,"2,464"
+1,ft.S.x,branch-loads,"115,714,686"
+1,ft.S.x,branch-load-misses,"1,022,543"
+1,ft.S.x,node-loads,<not supported>
+1,ft.S.x,node-load-misses,<not supported>
+1,ft.S.x,node-stores,<not supported>
+1,ft.S.x,node-store-misses,<not supported>
+1,ft.S.x,node-prefetches,<not supported>
+1,ft.S.x,node-prefetch-misses,<not supported>
+1,ft.S.x,time-elapsed_(1),0.040452644,seconds
+1,is.S.x,cpu-cycles,"553,821,703",1.837 GHz,(10.27%)
+1,is.S.x,instructions,"333,926,541",0.60,insn per cycle
+1,is.S.x,stalled cycles per insn,0.35,(29.91%)
+1,is.S.x,cache-references,"1,121,910",3.722 M/sec,(48.10%)
+1,is.S.x,cache-misses,"244,903",21.829 % of all cache refs,(56.94%)
+1,is.S.x,branch-instructions,"96,539,517",320.246 M/sec,(70.80%)
+1,is.S.x,branch-misses,"62,306",0.06% of all branches,(81.95%)
+1,is.S.x,bus-cycles,<not supported>
+1,is.S.x,stalled-cycles-frontend,"55,288,040",9.98% frontend cycles idle,(49.85%)
+1,is.S.x,stalled-cycles-backend,"117,618,744",21.24% backend cycles idle,(34.84%)
+1,is.S.x,ref-cycles,<not supported>
+1,is.S.x,cpu-clock,301.43,msec,10.033 CPUs utilized
+1,is.S.x,task-clock,301.47,msec,10.034 CPUs utilized
+1,is.S.x,page-faults,319,0.001 M/sec
+1,is.S.x,context-switches,127,0.421 K/sec
+1,is.S.x,cpu-migrations,40,0.133 K/sec
+1,is.S.x,minor-faults,319,0.001 M/sec
+1,is.S.x,major-faults,0,0.000 K/sec
+1,is.S.x,L1-dcache-loads,"159,572,035",529.341 M/sec,(34.84%)
+1,is.S.x,L1-dcache-load-misses,"1,869,582",1.17% of all L1-dcache hits,(20.98%)
+1,is.S.x,L1-dcache-stores,<not supported>
+1,is.S.x,time-elapsed_(1),0.030045261,seconds
+1,is.S.x,L1-dcache-store-misses,<not supported>
+1,is.S.x,L1-dcache-prefetches,"1,091,567",(7.38%)
+1,is.S.x,L1-dcache-prefetch-misses,0,(31.15%)
+1,is.S.x,L1-icache-loads,"64,806,114",(49.86%)
+1,is.S.x,L1-icache-load-misses,"52,843",0.08% of all L1-icache hits,(51.73%)
+1,is.S.x,L1-icache-prefetches,117,(66.65%)
+1,is.S.x,L1-icache-prefetch-misses,<not supported>
+1,is.S.x,LLC-loads,"1,992,242",(42.76%)
+1,is.S.x,LLC-load-misses,"769,109",38.61% of all LL-cache hits,(17.12%)
+1,is.S.x,LLC-stores,<not counted>,(0.00%)
+1,is.S.x,LLC-store-misses,<not supported>
+1,is.S.x,LLC-prefetches,<not supported>
+1,is.S.x,LLC-prefetch-misses,<not supported>
+1,is.S.x,dTLB-loads,<not counted>,(0.00%)
+1,is.S.x,dTLB-load-misses,<not counted>,(0.00%)
+1,is.S.x,dTLB-stores,<not supported>
+1,is.S.x,dTLB-store-misses,<not supported>
+1,is.S.x,dTLB-prefetches,<not supported>
+1,is.S.x,dTLB-prefetch-misses,<not supported>
+1,is.S.x,iTLB-loads,<not counted>,(0.00%)
+1,is.S.x,time-elapsed_(1),0.021011491,seconds
+1,is.S.x,iTLB-load-misses,599
+1,is.S.x,branch-loads,"37,284,690"
+1,is.S.x,branch-load-misses,"58,256"
+1,is.S.x,node-loads,<not supported>
+1,is.S.x,node-load-misses,<not supported>
+1,is.S.x,node-stores,<not supported>
+1,is.S.x,node-store-misses,<not supported>
+1,is.S.x,node-prefetches,<not supported>
+1,is.S.x,node-prefetch-misses,<not supported>
+1,is.S.x,time-elapsed_(1),0.017333545,seconds
+1,lu.S.x,cpu-cycles,"1,315,019,778",2.477 GHz,(32.59%)
+1,lu.S.x,instructions,"881,857,727",0.67,insn per cycle
+1,lu.S.x,stalled cycles per insn,0.13,(39.98%)
+1,lu.S.x,cache-references,"3,023,722",5.695 M/sec,(40.00%)
+1,lu.S.x,cache-misses,"191,010",6.317 % of all cache refs,(31.07%)
+1,lu.S.x,branch-instructions,"196,535,936",370.143 M/sec,(43.84%)
+1,lu.S.x,branch-misses,"143,016",0.07% of all branches,(55.62%)
+1,lu.S.x,bus-cycles,<not supported>
+1,lu.S.x,stalled-cycles-frontend,"109,287,229",8.31% frontend cycles idle,(47.98%)
+1,lu.S.x,stalled-cycles-backend,"112,800,070",8.58% backend cycles idle,(48.36%)
+1,lu.S.x,ref-cycles,<not supported>
+1,lu.S.x,cpu-clock,530.94,msec,11.901 CPUs utilized
+1,lu.S.x,task-clock,531.00,msec,11.902 CPUs utilized
+1,lu.S.x,page-faults,391,0.736 K/sec
+1,lu.S.x,context-switches,218,0.411 K/sec
+1,lu.S.x,cpu-migrations,38,0.072 K/sec
+1,lu.S.x,minor-faults,391,0.736 K/sec
+1,lu.S.x,major-faults,0,0.000 K/sec
+1,lu.S.x,L1-dcache-loads,"373,924,230",704.225 M/sec,(57.84%)
+1,lu.S.x,L1-dcache-load-misses,"3,290,718",0.88% of all L1-dcache hits,(51.44%)
+1,lu.S.x,L1-dcache-stores,<not supported>
+1,lu.S.x,time-elapsed_(1),0.044613471,seconds
+1,lu.S.x,L1-dcache-store-misses,<not supported>
+1,lu.S.x,L1-dcache-prefetches,"7,059,277",(0.74%)
+1,lu.S.x,L1-dcache-prefetch-misses,0,(8.12%)
+1,lu.S.x,L1-icache-loads,"170,779,779",(19.60%)
+1,lu.S.x,L1-icache-load-misses,"120,273",0.07% of all L1-icache hits,(24.67%)
+1,lu.S.x,L1-icache-prefetches,216,(37.42%)
+1,lu.S.x,L1-icache-prefetch-misses,<not supported>
+1,lu.S.x,LLC-loads,"1,470,301",(37.82%)
+1,lu.S.x,LLC-load-misses,"371,082",25.24% of all LL-cache hits,(37.59%)
+1,lu.S.x,LLC-stores,"1,768,486",(25.08%)
+1,lu.S.x,LLC-store-misses,<not supported>
+1,lu.S.x,LLC-prefetches,<not supported>
+1,lu.S.x,LLC-prefetch-misses,<not supported>
+1,lu.S.x,dTLB-loads,"378,667,567",(36.07%)
+1,lu.S.x,dTLB-load-misses,"12,092",0.00% of all dTLB cache hits,(29.29%)
+1,lu.S.x,dTLB-stores,<not supported>
+1,lu.S.x,dTLB-store-misses,<not supported>
+1,lu.S.x,dTLB-prefetches,<not supported>
+1,lu.S.x,dTLB-prefetch-misses,<not supported>
+1,lu.S.x,iTLB-loads,"196,072,485",(17.09%)
+1,lu.S.x,time-elapsed_(1),0.039411150,seconds
+1,lu.S.x,iTLB-load-misses,"3,541"
+1,lu.S.x,branch-loads,"170,371,164"
+1,lu.S.x,branch-load-misses,"159,596"
+1,lu.S.x,node-loads,<not supported>
+1,lu.S.x,node-load-misses,<not supported>
+1,lu.S.x,node-stores,<not supported>
+1,lu.S.x,node-store-misses,<not supported>
+1,lu.S.x,node-prefetches,<not supported>
+1,lu.S.x,node-prefetch-misses,<not supported>
+1,lu.S.x,time-elapsed_(1),0.037852927,seconds
+1,mg.S.x,cpu-cycles,"407,427,958",1.649 GHz,(0.24%)
+1,mg.S.x,instructions,"298,346,572",0.73,insn per cycle
+1,mg.S.x,stalled cycles per insn,0.19,(10.40%)
+1,mg.S.x,cache-references,"1,222,503",4.947 M/sec,(36.93%)
+1,mg.S.x,cache-misses,"156,464",12.799 % of all cache refs,(60.39%)
+1,mg.S.x,branch-instructions,"77,117,252",312.065 M/sec,(80.18%)
+1,mg.S.x,branch-misses,"127,984",0.17% of all branches,(93.82%)
+1,mg.S.x,bus-cycles,<not supported>
+1,mg.S.x,stalled-cycles-frontend,"57,843,319",14.20% frontend cycles idle,(63.07%)
+1,mg.S.x,stalled-cycles-backend,"47,115,841",11.56% backend cycles idle,(39.37%)
+1,mg.S.x,ref-cycles,<not supported>
+1,mg.S.x,cpu-clock,247.10,msec,10.119 CPUs utilized
+1,mg.S.x,task-clock,247.14,msec,10.121 CPUs utilized
+1,mg.S.x,page-faults,589,0.002 M/sec
+1,mg.S.x,context-switches,117,0.473 K/sec
+1,mg.S.x,cpu-migrations,30,0.121 K/sec
+1,mg.S.x,minor-faults,589,0.002 M/sec
+1,mg.S.x,major-faults,0,0.000 K/sec
+1,mg.S.x,L1-dcache-loads,"119,603,823",483.993 M/sec,(39.37%)
+1,mg.S.x,L1-dcache-load-misses,"756,427",0.63% of all L1-dcache hits,(19.58%)
+1,mg.S.x,L1-dcache-stores,<not supported>
+1,mg.S.x,time-elapsed_(1),0.024418981,seconds
+1,mg.S.x,L1-dcache-store-misses,<not supported>
+1,mg.S.x,L1-dcache-prefetches,"5,003,242",(0.43%)
+1,mg.S.x,L1-dcache-prefetch-misses,0,(17.65%)
+1,mg.S.x,L1-icache-loads,"78,905,745",(48.08%)
+1,mg.S.x,L1-icache-load-misses,"121,324",0.15% of all L1-icache hits,(54.56%)
+1,mg.S.x,L1-icache-prefetches,835,(74.58%)
+1,mg.S.x,L1-icache-prefetch-misses,<not supported>
+1,mg.S.x,LLC-loads,"1,552,610",(50.88%)
+1,mg.S.x,LLC-load-misses,"213,900",13.78% of all LL-cache hits,(27.79%)
+1,mg.S.x,LLC-stores,"22,393",(0.62%)
+1,mg.S.x,LLC-store-misses,<not supported>
+1,mg.S.x,LLC-prefetches,<not supported>
+1,mg.S.x,LLC-prefetch-misses,<not supported>
+1,mg.S.x,dTLB-loads,"136,272,945",(0.62%)
+1,mg.S.x,dTLB-load-misses,<not counted>,(0.00%)
+1,mg.S.x,dTLB-stores,<not supported>
+1,mg.S.x,dTLB-store-misses,<not supported>
+1,mg.S.x,dTLB-prefetches,<not supported>
+1,mg.S.x,dTLB-prefetch-misses,<not supported>
+1,mg.S.x,iTLB-loads,<not counted>,(0.00%)
+1,mg.S.x,time-elapsed_(1),0.023539254,seconds
+1,mg.S.x,iTLB-load-misses,"2,606"
+1,mg.S.x,branch-loads,"95,340,316"
+1,mg.S.x,branch-load-misses,"124,272"
+1,mg.S.x,node-loads,<not supported>
+1,mg.S.x,node-load-misses,<not supported>
+1,mg.S.x,node-stores,<not supported>
+1,mg.S.x,node-store-misses,<not supported>
+1,mg.S.x,node-prefetches,<not supported>
+1,mg.S.x,node-prefetch-misses,<not supported>
+1,mg.S.x,time-elapsed_(1),0.026062484,seconds
+1,sp.S.x,cpu-cycles,"956,362,174",2.051 GHz,(19.46%)
+1,sp.S.x,instructions,"566,022,837",0.59,insn per cycle
+1,sp.S.x,stalled cycles per insn,0.38,(33.16%)
+1,sp.S.x,cache-references,"2,483,089",5.325 M/sec,(38.24%)
+1,sp.S.x,cache-misses,"470,166",18.935 % of all cache refs,(41.00%)
+1,sp.S.x,branch-instructions,"91,735,738",196.718 M/sec,(54.73%)
+1,sp.S.x,branch-misses,"229,109",0.25% of all branches,(68.45%)
+1,sp.S.x,bus-cycles,<not supported>
+1,sp.S.x,stalled-cycles-frontend,"75,133,953",7.86% frontend cycles idle,(53.14%)
+1,sp.S.x,stalled-cycles-backend,"217,630,956",22.76% backend cycles idle,(48.16%)
+1,sp.S.x,ref-cycles,<not supported>
+1,sp.S.x,cpu-clock,466.30,msec,12.690 CPUs utilized
+1,sp.S.x,task-clock,466.36,msec,12.692 CPUs utilized
+1,sp.S.x,page-faults,424,0.909 K/sec
+1,sp.S.x,context-switches,139,0.298 K/sec
+1,sp.S.x,cpu-migrations,21,0.045 K/sec
+1,sp.S.x,minor-faults,424,0.909 K/sec
+1,sp.S.x,major-faults,0,0.000 K/sec
+1,sp.S.x,L1-dcache-loads,"249,992,742",536.085 M/sec,(48.94%)
+1,sp.S.x,L1-dcache-load-misses,"5,889,937",2.36% of all L1-dcache hits,(35.20%)
+1,sp.S.x,L1-dcache-stores,<not supported>
+1,sp.S.x,time-elapsed_(1),0.036745143,seconds
+1,sp.S.x,L1-dcache-store-misses,<not supported>
+1,sp.S.x,L1-dcache-prefetches,"6,357,462",(0.03%)
+1,sp.S.x,L1-dcache-prefetch-misses,0,(8.54%)
+1,sp.S.x,L1-icache-loads,"95,308,975",(24.27%)
+1,sp.S.x,L1-icache-load-misses,"258,195",0.27% of all L1-icache hits,(31.58%)
+1,sp.S.x,L1-icache-prefetches,225,(47.36%)
+1,sp.S.x,L1-icache-prefetch-misses,<not supported>
+1,sp.S.x,LLC-loads,"6,003,992",(47.41%)
+1,sp.S.x,LLC-load-misses,"722,797",12.04% of all LL-cache hits,(46.21%)
+1,sp.S.x,LLC-stores,"1,899,169",(23.53%)
+1,sp.S.x,LLC-store-misses,<not supported>
+1,sp.S.x,LLC-prefetches,<not supported>
+1,sp.S.x,LLC-prefetch-misses,<not supported>
+1,sp.S.x,dTLB-loads,"226,984,151",(28.28%)
+1,sp.S.x,dTLB-load-misses,"23,780",0.01% of all dTLB cache hits,(13.68%)
+1,sp.S.x,dTLB-stores,<not supported>
+1,sp.S.x,dTLB-store-misses,<not supported>
+1,sp.S.x,dTLB-prefetches,<not supported>
+1,sp.S.x,dTLB-prefetch-misses,<not supported>
+1,sp.S.x,iTLB-loads,"92,439,417",(4.76%)
+1,sp.S.x,time-elapsed_(1),0.032452695,seconds
+1,sp.S.x,iTLB-load-misses,"3,667"
+1,sp.S.x,branch-loads,"105,424,651"
+1,sp.S.x,branch-load-misses,"244,027"
+1,sp.S.x,node-loads,<not supported>
+1,sp.S.x,node-load-misses,<not supported>
+1,sp.S.x,node-stores,<not supported>
+1,sp.S.x,node-store-misses,<not supported>
+1,sp.S.x,node-prefetches,<not supported>
+1,sp.S.x,node-prefetch-misses,<not supported>
+1,sp.S.x,time-elapsed_(1),0.038637175,seconds
+1,ua.S.x,cpu-cycles,"13,941,527,052",2.487 GHz,(39.16%)
+1,ua.S.x,instructions,"5,505,000,418",0.39,insn per cycle
+1,ua.S.x,stalled cycles per insn,0.50,(48.72%)
+1,ua.S.x,cache-references,"74,213,971",13.241 M/sec,(48.83%)
+1,ua.S.x,cache-misses,"8,972,043",12.089 % of all cache refs,(30.07%)
+1,ua.S.x,branch-instructions,"898,389,880",160.289 M/sec,(40.33%)
+1,ua.S.x,branch-misses,"3,420,816",0.38% of all branches,(50.58%)
+1,ua.S.x,bus-cycles,<not supported>
+1,ua.S.x,stalled-cycles-frontend,"612,883,947",4.40% frontend cycles idle,(41.03%)
+1,ua.S.x,stalled-cycles-backend,"2,766,339,377",19.84% backend cycles idle,(40.92%)
+1,ua.S.x,ref-cycles,<not supported>
+1,ua.S.x,cpu-clock,"5,604.74",msec,15.600 CPUs utilized
+1,ua.S.x,task-clock,"5,604.90",msec,15.600 CPUs utilized
+1,ua.S.x,page-faults,"1,576",0.281 K/sec
+1,ua.S.x,context-switches,701,0.125 K/sec
+1,ua.S.x,cpu-migrations,20,0.004 K/sec
+1,ua.S.x,minor-faults,"1,576",0.281 K/sec
+1,ua.S.x,major-faults,0,0.000 K/sec
+1,ua.S.x,L1-dcache-loads,"2,938,943,459",524.360 M/sec,(50.86%)
+1,ua.S.x,L1-dcache-load-misses,"52,725,639",1.79% of all L1-dcache hits,(50.39%)
+1,ua.S.x,L1-dcache-stores,<not supported>
+1,ua.S.x,time-elapsed_(1),0.359288935,seconds
+1,ua.S.x,L1-dcache-store-misses,<not supported>
+1,ua.S.x,L1-dcache-prefetches,"131,116,262",(17.93%)
+1,ua.S.x,L1-dcache-prefetch-misses,0,(18.29%)
+1,ua.S.x,L1-icache-loads,"1,408,013,214",(18.93%)
+1,ua.S.x,L1-icache-load-misses,"1,454,780",0.10% of all L1-icache hits,(18.71%)
+1,ua.S.x,L1-icache-prefetches,634,(27.72%)
+1,ua.S.x,L1-icache-prefetch-misses,<not supported>
+1,ua.S.x,LLC-loads,"69,718,640",(27.12%)
+1,ua.S.x,LLC-load-misses,"9,110,210",13.07% of all LL-cache hits,(27.05%)
+1,ua.S.x,LLC-stores,"26,383,406",(18.04%)
+1,ua.S.x,LLC-store-misses,<not supported>
+1,ua.S.x,LLC-prefetches,<not supported>
+1,ua.S.x,LLC-prefetch-misses,<not supported>
+1,ua.S.x,dTLB-loads,"3,048,283,853",(27.06%)
+1,ua.S.x,dTLB-load-misses,"21,489",0.00% of all dTLB cache hits,(26.99%)
+1,ua.S.x,dTLB-stores,<not supported>
+1,ua.S.x,dTLB-store-misses,<not supported>
+1,ua.S.x,dTLB-prefetches,<not supported>
+1,ua.S.x,dTLB-prefetch-misses,<not supported>
+1,ua.S.x,iTLB-loads,"1,459,559,425",(26.93%)
+1,ua.S.x,time-elapsed_(1),0.363093399,seconds
+1,ua.S.x,iTLB-load-misses,"4,521"
+1,ua.S.x,branch-loads,"920,932,795"
+1,ua.S.x,branch-load-misses,"3,240,120"
+1,ua.S.x,node-loads,<not supported>
+1,ua.S.x,node-load-misses,<not supported>
+1,ua.S.x,node-stores,<not supported>
+1,ua.S.x,node-store-misses,<not supported>
+1,ua.S.x,node-prefetches,<not supported>
+1,ua.S.x,node-prefetch-misses,<not supported>
+1,ua.S.x,time-elapsed_(1),0.357577642,seconds
+2,bt.S.x,cpu-cycles,"1,170,200,428",2.479 GHz,(25.58%)
+2,bt.S.x,instructions,"858,715,412",0.73,insn per cycle
+2,bt.S.x,stalled cycles per insn,0.16,(32.41%)
+2,bt.S.x,cache-references,"4,793,747",10.157 M/sec,(35.38%)
+2,bt.S.x,cache-misses,"299,064",6.239 % of all cache refs,(33.86%)
+2,bt.S.x,branch-instructions,"113,550,975",240.583 M/sec,(47.35%)
+2,bt.S.x,branch-misses,"169,593",0.15% of all branches,(60.89%)
+2,bt.S.x,bus-cycles,<not supported>
+2,bt.S.x,stalled-cycles-frontend,"61,448,139",5.25% frontend cycles idle,(54.10%)
+2,bt.S.x,stalled-cycles-backend,"137,427,799",11.74% backend cycles idle,(51.08%)
+2,bt.S.x,ref-cycles,<not supported>
+2,bt.S.x,cpu-clock,471.96,msec,12.380 CPUs utilized
+2,bt.S.x,task-clock,472.00,msec,12.381 CPUs utilized
+2,bt.S.x,page-faults,458,0.970 K/sec
+2,bt.S.x,context-switches,157,0.333 K/sec
+2,bt.S.x,cpu-migrations,23,0.049 K/sec
+2,bt.S.x,minor-faults,458,0.970 K/sec
+2,bt.S.x,major-faults,0,0.000 K/sec
+2,bt.S.x,L1-dcache-loads,"435,367,909",922.425 M/sec,(59.79%)
+2,bt.S.x,L1-dcache-load-misses,"7,031,917",1.62% of all L1-dcache hits,(51.86%)
+2,bt.S.x,L1-dcache-stores,<not supported>
+2,bt.S.x,time-elapsed_(2),0.038124435,seconds
+2,bt.S.x,L1-dcache-store-misses,<not supported>
+2,bt.S.x,L1-dcache-prefetches,"4,513,880",(1.80%)
+2,bt.S.x,L1-dcache-prefetch-misses,0,(9.12%)
+2,bt.S.x,L1-icache-loads,"203,123,302",(20.79%)
+2,bt.S.x,L1-icache-load-misses,"191,381",0.09% of all L1-icache hits,(25.28%)
+2,bt.S.x,L1-icache-prefetches,303,(37.23%)
+2,bt.S.x,L1-icache-prefetch-misses,<not supported>
+2,bt.S.x,LLC-loads,"5,656,819",(37.29%)
+2,bt.S.x,LLC-load-misses,"407,782",7.21% of all LL-cache hits,(36.76%)
+2,bt.S.x,LLC-stores,"1,512,891",(24.22%)
+2,bt.S.x,LLC-store-misses,<not supported>
+2,bt.S.x,LLC-prefetches,<not supported>
+2,bt.S.x,LLC-prefetch-misses,<not supported>
+2,bt.S.x,dTLB-loads,"505,253,110",(34.00%)
+2,bt.S.x,dTLB-load-misses,"5,392",0.00% of all dTLB cache hits,(27.70%)
+2,bt.S.x,dTLB-stores,<not supported>
+2,bt.S.x,dTLB-store-misses,<not supported>
+2,bt.S.x,dTLB-prefetches,<not supported>
+2,bt.S.x,dTLB-prefetch-misses,<not supported>
+2,bt.S.x,iTLB-loads,"191,936,869",(17.03%)
+2,bt.S.x,time-elapsed_(2),0.041377465,seconds
+2,bt.S.x,iTLB-load-misses,"3,541"
+2,bt.S.x,branch-loads,"118,913,386"
+2,bt.S.x,branch-load-misses,"156,149"
+2,bt.S.x,node-loads,<not supported>
+2,bt.S.x,node-load-misses,<not supported>
+2,bt.S.x,node-stores,<not supported>
+2,bt.S.x,node-store-misses,<not supported>
+2,bt.S.x,node-prefetches,<not supported>
+2,bt.S.x,node-prefetch-misses,<not supported>
+2,bt.S.x,time-elapsed_(2),0.040141465,seconds
+2,cg.A.x,cpu-cycles,"12,456,783,166",2.476 GHz,(39.61%)
+2,cg.A.x,instructions,"9,811,728,626",0.79,insn per cycle
+2,cg.A.x,stalled cycles per insn,0.17,(49.74%)
+2,cg.A.x,cache-references,"852,770,206",169.493 M/sec,(49.77%)
+2,cg.A.x,cache-misses,"80,333,734",9.420 % of all cache refs,(30.28%)
+2,cg.A.x,branch-instructions,"1,691,964,258",336.287 M/sec,(40.28%)
+2,cg.A.x,branch-misses,"17,226,181",1.02% of all branches,(50.30%)
+2,cg.A.x,bus-cycles,<not supported>
+2,cg.A.x,stalled-cycles-frontend,"877,966,973",7.05% frontend cycles idle,(40.14%)
+2,cg.A.x,stalled-cycles-backend,"1,620,975,598",13.01% backend cycles idle,(40.21%)
+2,cg.A.x,ref-cycles,<not supported>
+2,cg.A.x,cpu-clock,"5,031.25",msec,15.102 CPUs utilized
+2,cg.A.x,task-clock,"5,031.38",msec,15.102 CPUs utilized
+2,cg.A.x,page-faults,"12,291",0.002 M/sec
+2,cg.A.x,context-switches,656,0.130 K/sec
+2,cg.A.x,cpu-migrations,20,0.004 K/sec
+2,cg.A.x,minor-faults,"12,291",0.002 M/sec
+2,cg.A.x,major-faults,0,0.000 K/sec
+2,cg.A.x,L1-dcache-loads,"3,351,449,500",666.118 M/sec,(50.24%)
+2,cg.A.x,L1-dcache-load-misses,"722,462,717",21.56% of all L1-dcache hits,(50.01%)
+2,cg.A.x,L1-dcache-stores,<not supported>
+2,cg.A.x,time-elapsed_(2),0.333158572,seconds
+2,cg.A.x,L1-dcache-store-misses,<not supported>
+2,cg.A.x,L1-dcache-prefetches,"424,051,176",(17.96%)
+2,cg.A.x,L1-dcache-prefetch-misses,0,(18.30%)
+2,cg.A.x,L1-icache-loads,"2,702,800,827",(18.95%)
+2,cg.A.x,L1-icache-load-misses,"962,620",0.04% of all L1-icache hits,(18.91%)
+2,cg.A.x,L1-icache-prefetches,"92,571",(27.91%)
+2,cg.A.x,L1-icache-prefetch-misses,<not supported>
+2,cg.A.x,LLC-loads,"796,290,872",(27.19%)
+2,cg.A.x,LLC-load-misses,"77,182,966",9.69% of all LL-cache hits,(26.90%)
+2,cg.A.x,LLC-stores,"143,553,972",(17.93%)
+2,cg.A.x,LLC-store-misses,<not supported>
+2,cg.A.x,LLC-prefetches,<not supported>
+2,cg.A.x,LLC-prefetch-misses,<not supported>
+2,cg.A.x,dTLB-loads,"3,273,073,995",(26.98%)
+2,cg.A.x,dTLB-load-misses,"274,981",0.01% of all dTLB cache hits,(26.95%)
+2,cg.A.x,dTLB-stores,<not supported>
+2,cg.A.x,dTLB-store-misses,<not supported>
+2,cg.A.x,dTLB-prefetches,<not supported>
+2,cg.A.x,dTLB-prefetch-misses,<not supported>
+2,cg.A.x,iTLB-loads,"2,756,103,903",(26.92%)
+2,cg.A.x,time-elapsed_(2),0.340705752,seconds
+2,cg.A.x,iTLB-load-misses,"3,413"
+2,cg.A.x,branch-loads,"1,740,149,070"
+2,cg.A.x,branch-load-misses,"16,225,152"
+2,cg.A.x,node-loads,<not supported>
+2,cg.A.x,node-load-misses,<not supported>
+2,cg.A.x,node-stores,<not supported>
+2,cg.A.x,node-store-misses,<not supported>
+2,cg.A.x,node-prefetches,<not supported>
+2,cg.A.x,node-prefetch-misses,<not supported>
+2,cg.A.x,time-elapsed_(2),0.348447856,seconds
+2,dc.S.x,cpu-cycles,"500,280,177",2.425 GHz,(16.64%)
+2,dc.S.x,instructions,"439,803,049",0.88,insn per cycle
+2,dc.S.x,stalled cycles per insn,0.39,(22.48%)
+2,dc.S.x,cache-references,"6,232,091",30.208 M/sec,(44.29%)
+2,dc.S.x,cache-misses,"603,730",9.687 % of all cache refs,(60.85%)
+2,dc.S.x,branch-instructions,"58,897,034",285.482 M/sec,(74.41%)
+2,dc.S.x,branch-misses,"730,912",1.24% of all branches,(79.47%)
+2,dc.S.x,bus-cycles,<not supported>
+2,dc.S.x,stalled-cycles-frontend,"39,752,754",7.95% frontend cycles idle,(51.82%)
+2,dc.S.x,stalled-cycles-backend,"173,582,338",34.70% backend cycles idle,(26.40%)
+2,dc.S.x,ref-cycles,<not supported>
+2,dc.S.x,cpu-clock,206.27,msec,1.536 CPUs utilized
+2,dc.S.x,task-clock,206.35,msec,1.537 CPUs utilized
+2,dc.S.x,page-faults,"9,053",0.044 M/sec
+2,dc.S.x,context-switches,135,0.654 K/sec
+2,dc.S.x,cpu-migrations,20,0.097 K/sec
+2,dc.S.x,minor-faults,"9,053",0.044 M/sec
+2,dc.S.x,major-faults,0,0.000 K/sec
+2,dc.S.x,L1-dcache-loads,"142,731,590",691.839 M/sec,(30.29%)
+2,dc.S.x,L1-dcache-load-misses,"6,417,170",4.50% of all L1-dcache hits,(20.62%)
+2,dc.S.x,L1-dcache-stores,<not supported>
+2,dc.S.x,time-elapsed_(2),0.134250162,seconds
+2,dc.S.x,L1-dcache-store-misses,<not supported>
+2,dc.S.x,L1-dcache-prefetches,"3,317,631",(30.11%)
+2,dc.S.x,L1-dcache-prefetch-misses,0,(55.92%)
+2,dc.S.x,L1-icache-loads,"62,475,586",(41.60%)
+2,dc.S.x,L1-icache-load-misses,"495,501",0.79% of all L1-icache hits,(16.40%)
+2,dc.S.x,L1-icache-prefetches,"57,430",(20.36%)
+2,dc.S.x,L1-icache-prefetch-misses,<not supported>
+2,dc.S.x,LLC-loads,"8,918,904",(12.47%)
+2,dc.S.x,LLC-load-misses,"1,592,760",17.86% of all LL-cache hits,(11.87%)
+2,dc.S.x,LLC-stores,"5,425,898",(7.92%)
+2,dc.S.x,LLC-store-misses,<not supported>
+2,dc.S.x,LLC-prefetches,<not supported>
+2,dc.S.x,LLC-prefetch-misses,<not supported>
+2,dc.S.x,dTLB-loads,"197,808,132",(11.87%)
+2,dc.S.x,dTLB-load-misses,"144,154",0.07% of all dTLB cache hits,(11.87%)
+2,dc.S.x,dTLB-stores,<not supported>
+2,dc.S.x,dTLB-store-misses,<not supported>
+2,dc.S.x,dTLB-prefetches,<not supported>
+2,dc.S.x,dTLB-prefetch-misses,<not supported>
+2,dc.S.x,iTLB-loads,"105,132,176",(11.85%)
+2,dc.S.x,time-elapsed_(2),0.127845771,seconds
+2,dc.S.x,iTLB-load-misses,"1,449"
+2,dc.S.x,branch-loads,"63,311,116"
+2,dc.S.x,branch-load-misses,"722,124"
+2,dc.S.x,node-loads,<not supported>
+2,dc.S.x,node-load-misses,<not supported>
+2,dc.S.x,node-stores,<not supported>
+2,dc.S.x,node-store-misses,<not supported>
+2,dc.S.x,node-prefetches,<not supported>
+2,dc.S.x,node-prefetch-misses,<not supported>
+2,dc.S.x,time-elapsed_(2),0.135342446,seconds
+2,ep.A.x,cpu-cycles,"45,118,910,642",2.488 GHz,(39.52%)
+2,ep.A.x,instructions,"27,971,197,615",0.62,insn per cycle
+2,ep.A.x,stalled cycles per insn,0.37,(49.48%)
+2,ep.A.x,cache-references,"148,534,307",8.189 M/sec,(49.60%)
+2,ep.A.x,cache-misses,"3,991,588",2.687 % of all cache refs,(30.13%)
+2,ep.A.x,branch-instructions,"2,828,857,053",155.962 M/sec,(40.32%)
+2,ep.A.x,branch-misses,"73,256,280",2.59% of all branches,(50.52%)
+2,ep.A.x,bus-cycles,<not supported>
+2,ep.A.x,stalled-cycles-frontend,"619,275,082",1.37% frontend cycles idle,(40.49%)
+2,ep.A.x,stalled-cycles-backend,"10,304,021,061",22.84% backend cycles idle,(40.26%)
+2,ep.A.x,ref-cycles,<not supported>
+2,ep.A.x,cpu-clock,"18,137.87",msec,15.620 CPUs utilized
+2,ep.A.x,task-clock,"18,138.25",msec,15.620 CPUs utilized
+2,ep.A.x,page-faults,"4,351",0.240 K/sec
+2,ep.A.x,context-switches,"2,129",0.117 K/sec
+2,ep.A.x,cpu-migrations,28,0.002 K/sec
+2,ep.A.x,minor-faults,"4,351",0.240 K/sec
+2,ep.A.x,major-faults,0,0.000 K/sec
+2,ep.A.x,L1-dcache-loads,"10,679,882,716",588.811 M/sec,(50.13%)
+2,ep.A.x,L1-dcache-load-misses,"12,886,063",0.12% of all L1-dcache hits,(49.80%)
+2,ep.A.x,L1-dcache-stores,<not supported>
+2,ep.A.x,time-elapsed_(2),1.161187405,seconds
+2,ep.A.x,L1-dcache-store-misses,<not supported>
+2,ep.A.x,L1-dcache-prefetches,"137,363,700",(18.11%)
+2,ep.A.x,L1-dcache-prefetch-misses,0,(17.97%)
+2,ep.A.x,L1-icache-loads,"7,705,334,897",(17.89%)
+2,ep.A.x,L1-icache-load-misses,"2,035,132",0.03% of all L1-icache hits,(17.92%)
+2,ep.A.x,L1-icache-prefetches,"14,244",(27.01%)
+2,ep.A.x,L1-icache-prefetch-misses,<not supported>
+2,ep.A.x,LLC-loads,"146,368,390",(27.25%)
+2,ep.A.x,LLC-load-misses,"3,318,093",2.27% of all LL-cache hits,(27.43%)
+2,ep.A.x,LLC-stores,"61,680,437",(18.37%)
+2,ep.A.x,LLC-store-misses,<not supported>
+2,ep.A.x,LLC-prefetches,<not supported>
+2,ep.A.x,LLC-prefetch-misses,<not supported>
+2,ep.A.x,dTLB-loads,"10,661,731,204",(27.56%)
+2,ep.A.x,dTLB-load-misses,"18,821",0.00% of all dTLB cache hits,(27.58%)
+2,ep.A.x,dTLB-stores,<not supported>
+2,ep.A.x,dTLB-store-misses,<not supported>
+2,ep.A.x,dTLB-prefetches,<not supported>
+2,ep.A.x,dTLB-prefetch-misses,<not supported>
+2,ep.A.x,iTLB-loads,"7,734,022,341",(27.49%)
+2,ep.A.x,time-elapsed_(2),1.182276621,seconds
+2,ep.A.x,iTLB-load-misses,"2,566"
+2,ep.A.x,branch-loads,"2,814,681,909"
+2,ep.A.x,branch-load-misses,"73,514,711"
+2,ep.A.x,node-loads,<not supported>
+2,ep.A.x,node-load-misses,<not supported>
+2,ep.A.x,node-stores,<not supported>
+2,ep.A.x,node-store-misses,<not supported>
+2,ep.A.x,node-prefetches,<not supported>
+2,ep.A.x,node-prefetch-misses,<not supported>
+2,ep.A.x,time-elapsed_(2),1.162501258,seconds
+2,ft.S.x,cpu-cycles,"1,061,556,343",2.427 GHz,(16.07%)
+2,ft.S.x,instructions,"797,292,303",0.75,insn per cycle
+2,ft.S.x,stalled cycles per insn,0.23,(25.02%)
+2,ft.S.x,cache-references,"11,468,718",26.216 M/sec,(32.33%)
+2,ft.S.x,cache-misses,"548,772",4.785 % of all cache refs,(40.87%)
+2,ft.S.x,branch-instructions,"84,472,610",193.091 M/sec,(55.42%)
+2,ft.S.x,branch-misses,"843,768",1.00% of all branches,(70.02%)
+2,ft.S.x,bus-cycles,<not supported>
+2,ft.S.x,stalled-cycles-frontend,"34,976,264",3.29% frontend cycles idle,(56.81%)
+2,ft.S.x,stalled-cycles-backend,"185,900,729",17.51% backend cycles idle,(53.92%)
+2,ft.S.x,ref-cycles,<not supported>
+2,ft.S.x,cpu-clock,437.44,msec,12.371 CPUs utilized
+2,ft.S.x,task-clock,437.50,msec,12.372 CPUs utilized
+2,ft.S.x,page-faults,"3,143",0.007 M/sec
+2,ft.S.x,context-switches,113,0.258 K/sec
+2,ft.S.x,cpu-migrations,21,0.048 K/sec
+2,ft.S.x,minor-faults,"3,143",0.007 M/sec
+2,ft.S.x,major-faults,0,0.000 K/sec
+2,ft.S.x,L1-dcache-loads,"355,653,308",812.969 M/sec,(58.58%)
+2,ft.S.x,L1-dcache-load-misses,"9,926,164",2.79% of all L1-dcache hits,(44.03%)
+2,ft.S.x,L1-dcache-stores,<not supported>
+2,ft.S.x,time-elapsed_(2),0.035361616,seconds
+2,ft.S.x,L1-dcache-store-misses,<not supported>
+2,ft.S.x,L1-dcache-prefetches,"10,816,612",(0.58%)
+2,ft.S.x,L1-dcache-prefetch-misses,0,(8.58%)
+2,ft.S.x,L1-icache-loads,"127,513,168",(22.69%)
+2,ft.S.x,L1-icache-load-misses,"234,678",0.18% of all L1-icache hits,(28.46%)
+2,ft.S.x,L1-icache-prefetches,"3,560",(41.79%)
+2,ft.S.x,L1-icache-prefetch-misses,<not supported>
+2,ft.S.x,LLC-loads,"28,978,241",(40.50%)
+2,ft.S.x,LLC-load-misses,"961,400",3.32% of all LL-cache hits,(40.16%)
+2,ft.S.x,LLC-stores,"2,253,770",(25.35%)
+2,ft.S.x,LLC-store-misses,<not supported>
+2,ft.S.x,LLC-prefetches,<not supported>
+2,ft.S.x,LLC-prefetch-misses,<not supported>
+2,ft.S.x,dTLB-loads,"408,488,307",(33.39%)
+2,ft.S.x,dTLB-load-misses,"43,815",0.01% of all dTLB cache hits,(22.80%)
+2,ft.S.x,dTLB-stores,<not supported>
+2,ft.S.x,dTLB-store-misses,<not supported>
+2,ft.S.x,dTLB-prefetches,<not supported>
+2,ft.S.x,dTLB-prefetch-misses,<not supported>
+2,ft.S.x,iTLB-loads,"196,358,008",(10.87%)
+2,ft.S.x,time-elapsed_(2),0.039557979,seconds
+2,ft.S.x,iTLB-load-misses,"2,429"
+2,ft.S.x,branch-loads,"132,011,779"
+2,ft.S.x,branch-load-misses,"1,022,543"
+2,ft.S.x,node-loads,<not supported>
+2,ft.S.x,node-load-misses,<not supported>
+2,ft.S.x,node-stores,<not supported>
+2,ft.S.x,node-store-misses,<not supported>
+2,ft.S.x,node-prefetches,<not supported>
+2,ft.S.x,node-prefetch-misses,<not supported>
+2,ft.S.x,time-elapsed_(2),0.044533935,seconds
+2,is.S.x,cpu-cycles,"352,475,654",1.352 GHz,(0.23%)
+2,is.S.x,instructions,"298,024,615",0.85,insn per cycle
+2,is.S.x,stalled cycles per insn,0.45,(15.29%)
+2,is.S.x,cache-references,"845,299",3.243 M/sec,(42.01%)
+2,is.S.x,cache-misses,"226,412",26.785 % of all cache refs,(69.66%)
+2,is.S.x,branch-instructions,"64,705,762",248.275 M/sec,(88.64%)
+2,is.S.x,branch-misses,"69,081",0.11% of all branches,(98.74%)
+2,is.S.x,bus-cycles,<not supported>
+2,is.S.x,stalled-cycles-frontend,"34,111,665",9.68% frontend cycles idle,(57.99%)
+2,is.S.x,stalled-cycles-backend,"133,070,105",37.75% backend cycles idle,(30.11%)
+2,is.S.x,ref-cycles,<not supported>
+2,is.S.x,cpu-clock,260.61,msec,9.993 CPUs utilized
+2,is.S.x,task-clock,260.64,msec,9.995 CPUs utilized
+2,is.S.x,page-faults,326,0.001 M/sec
+2,is.S.x,context-switches,70,0.269 K/sec
+2,is.S.x,cpu-migrations,24,0.092 K/sec
+2,is.S.x,minor-faults,326,0.001 M/sec
+2,is.S.x,major-faults,0,0.000 K/sec
+2,is.S.x,L1-dcache-loads,"92,776,962",355.984 M/sec,(30.11%)
+2,is.S.x,L1-dcache-load-misses,"2,100,073",2.26% of all L1-dcache hits,(11.14%)
+2,is.S.x,L1-dcache-stores,<not supported>
+2,is.S.x,time-elapsed_(2),0.026077511,seconds
+2,is.S.x,L1-dcache-store-misses,<not supported>
+2,is.S.x,L1-dcache-prefetches,"991,106",(10.31%)
+2,is.S.x,L1-dcache-prefetch-misses,0,(33.89%)
+2,is.S.x,L1-icache-loads,"77,059,290",(45.51%)
+2,is.S.x,L1-icache-load-misses,"64,464",0.08% of all L1-icache hits,(43.42%)
+2,is.S.x,L1-icache-prefetches,120,(58.28%)
+2,is.S.x,L1-icache-prefetch-misses,<not supported>
+2,is.S.x,LLC-loads,"1,927,707",(44.17%)
+2,is.S.x,LLC-load-misses,"758,351",39.34% of all LL-cache hits,(22.70%)
+2,is.S.x,LLC-stores,<not counted>,(0.00%)
+2,is.S.x,LLC-store-misses,<not supported>
+2,is.S.x,LLC-prefetches,<not supported>
+2,is.S.x,LLC-prefetch-misses,<not supported>
+2,is.S.x,dTLB-loads,<not counted>,(0.00%)
+2,is.S.x,dTLB-load-misses,<not counted>,(0.00%)
+2,is.S.x,dTLB-stores,<not supported>
+2,is.S.x,dTLB-store-misses,<not supported>
+2,is.S.x,dTLB-prefetches,<not supported>
+2,is.S.x,dTLB-prefetch-misses,<not supported>
+2,is.S.x,iTLB-loads,<not counted>,(0.00%)
+2,is.S.x,time-elapsed_(2),0.022879384,seconds
+2,is.S.x,iTLB-load-misses,581
+2,is.S.x,branch-loads,"51,385,424"
+2,is.S.x,branch-load-misses,"64,936"
+2,is.S.x,node-loads,<not supported>
+2,is.S.x,node-load-misses,<not supported>
+2,is.S.x,node-stores,<not supported>
+2,is.S.x,node-store-misses,<not supported>
+2,is.S.x,node-prefetches,<not supported>
+2,is.S.x,node-prefetch-misses,<not supported>
+2,is.S.x,time-elapsed_(2),0.021061069,seconds
+2,lu.S.x,cpu-cycles,"1,201,953,755",2.474 GHz,(30.28%)
+2,lu.S.x,instructions,"804,454,642",0.67,insn per cycle
+2,lu.S.x,stalled cycles per insn,0.13,(34.71%)
+2,lu.S.x,cache-references,"2,346,158",4.828 M/sec,(35.65%)
+2,lu.S.x,cache-misses,"200,382",8.541 % of all cache refs,(30.40%)
+2,lu.S.x,branch-instructions,"170,259,570",350.392 M/sec,(43.69%)
+2,lu.S.x,branch-misses,"154,909",0.09% of all branches,(56.57%)
+2,lu.S.x,bus-cycles,<not supported>
+2,lu.S.x,stalled-cycles-frontend,"92,918,764",7.73% frontend cycles idle,(52.48%)
+2,lu.S.x,stalled-cycles-backend,"108,427,206",9.02% backend cycles idle,(51.19%)
+2,lu.S.x,ref-cycles,<not supported>
+2,lu.S.x,cpu-clock,485.88,msec,12.307 CPUs utilized
+2,lu.S.x,task-clock,485.94,msec,12.308 CPUs utilized
+2,lu.S.x,page-faults,401,0.825 K/sec
+2,lu.S.x,context-switches,162,0.333 K/sec
+2,lu.S.x,cpu-migrations,32,0.066 K/sec
+2,lu.S.x,minor-faults,401,0.825 K/sec
+2,lu.S.x,major-faults,0,0.000 K/sec
+2,lu.S.x,L1-dcache-loads,"350,124,292",720.552 M/sec,(60.97%)
+2,lu.S.x,L1-dcache-load-misses,"3,186,068",0.91% of all L1-dcache hits,(54.41%)
+2,lu.S.x,L1-dcache-stores,<not supported>
+2,lu.S.x,time-elapsed_(2),0.039480849,seconds
+2,lu.S.x,L1-dcache-store-misses,<not supported>
+2,lu.S.x,L1-dcache-prefetches,"10,263,289",(0.57%)
+2,lu.S.x,L1-dcache-prefetch-misses,0,(9.52%)
+2,lu.S.x,L1-icache-loads,"174,091,132",(22.23%)
+2,lu.S.x,L1-icache-load-misses,"124,366",0.07% of all L1-icache hits,(26.90%)
+2,lu.S.x,L1-icache-prefetches,214,(40.03%)
+2,lu.S.x,L1-icache-prefetch-misses,<not supported>
+2,lu.S.x,LLC-loads,"1,986,445",(39.59%)
+2,lu.S.x,LLC-load-misses,"405,010",20.39% of all LL-cache hits,(38.42%)
+2,lu.S.x,LLC-stores,"1,716,671",(23.65%)
+2,lu.S.x,LLC-store-misses,<not supported>
+2,lu.S.x,LLC-prefetches,<not supported>
+2,lu.S.x,LLC-prefetch-misses,<not supported>
+2,lu.S.x,dTLB-loads,"357,103,171",(33.17%)
+2,lu.S.x,dTLB-load-misses,"13,448",0.00% of all dTLB cache hits,(25.16%)
+2,lu.S.x,dTLB-stores,<not supported>
+2,lu.S.x,dTLB-store-misses,<not supported>
+2,lu.S.x,dTLB-prefetches,<not supported>
+2,lu.S.x,dTLB-prefetch-misses,<not supported>
+2,lu.S.x,iTLB-loads,"182,857,190",(13.96%)
+2,lu.S.x,time-elapsed_(2),0.037743034,seconds
+2,lu.S.x,iTLB-load-misses,"3,525"
+2,lu.S.x,branch-loads,"220,980,544"
+2,lu.S.x,branch-load-misses,"167,324"
+2,lu.S.x,node-loads,<not supported>
+2,lu.S.x,node-load-misses,<not supported>
+2,lu.S.x,node-stores,<not supported>
+2,lu.S.x,node-store-misses,<not supported>
+2,lu.S.x,node-prefetches,<not supported>
+2,lu.S.x,node-prefetch-misses,<not supported>
+2,lu.S.x,time-elapsed_(2),0.046252112,seconds
+2,mg.S.x,cpu-cycles,"781,607,456",2.166 GHz,(5.41%)
+2,mg.S.x,instructions,"440,806,743",0.56,insn per cycle
+2,mg.S.x,stalled cycles per insn,0.21,(20.06%)
+2,mg.S.x,cache-references,"1,066,955",2.957 M/sec,(33.77%)
+2,mg.S.x,cache-misses,"81,749",7.662 % of all cache refs,(49.74%)
+2,mg.S.x,branch-instructions,"138,430,083",383.671 M/sec,(67.29%)
+2,mg.S.x,branch-misses,"95,040",0.07% of all branches,(83.25%)
+2,mg.S.x,bus-cycles,<not supported>
+2,mg.S.x,stalled-cycles-frontend,"91,569,975",11.72% frontend cycles idle,(62.70%)
+2,mg.S.x,stalled-cycles-backend,"83,738,296",10.71% backend cycles idle,(48.38%)
+2,mg.S.x,ref-cycles,<not supported>
+2,mg.S.x,cpu-clock,360.78,msec,11.751 CPUs utilized
+2,mg.S.x,task-clock,360.83,msec,11.753 CPUs utilized
+2,mg.S.x,page-faults,597,0.002 M/sec
+2,mg.S.x,context-switches,166,0.460 K/sec
+2,mg.S.x,cpu-migrations,31,0.086 K/sec
+2,mg.S.x,minor-faults,597,0.002 M/sec
+2,mg.S.x,major-faults,0,0.000 K/sec
+2,mg.S.x,L1-dcache-loads,"206,777,788",573.103 M/sec,(48.38%)
+2,mg.S.x,L1-dcache-load-misses,"1,146,870",0.55% of all L1-dcache hits,(30.83%)
+2,mg.S.x,L1-dcache-stores,<not supported>
+2,mg.S.x,time-elapsed_(2),0.030701974,seconds
+2,mg.S.x,L1-dcache-store-misses,<not supported>
+2,mg.S.x,L1-dcache-prefetches,"5,225,009",(0.43%)
+2,mg.S.x,L1-dcache-prefetch-misses,0,(11.26%)
+2,mg.S.x,L1-icache-loads,"95,599,984",(34.39%)
+2,mg.S.x,L1-icache-load-misses,"114,872",0.12% of all L1-icache hits,(45.02%)
+2,mg.S.x,L1-icache-prefetches,480,(62.61%)
+2,mg.S.x,L1-icache-prefetch-misses,<not supported>
+2,mg.S.x,LLC-loads,"1,282,617",(54.26%)
+2,mg.S.x,LLC-load-misses,"273,146",21.30% of all LL-cache hits,(42.11%)
+2,mg.S.x,LLC-stores,"861,721",(10.92%)
+2,mg.S.x,LLC-store-misses,<not supported>
+2,mg.S.x,LLC-prefetches,<not supported>
+2,mg.S.x,LLC-prefetch-misses,<not supported>
+2,mg.S.x,dTLB-loads,"141,536,562",(10.92%)
+2,mg.S.x,dTLB-load-misses,"5,339",0.00% of all dTLB cache hits,(1.61%)
+2,mg.S.x,dTLB-stores,<not supported>
+2,mg.S.x,dTLB-store-misses,<not supported>
+2,mg.S.x,dTLB-prefetches,<not supported>
+2,mg.S.x,dTLB-prefetch-misses,<not supported>
+2,mg.S.x,iTLB-loads,<not counted>,(0.00%)
+2,mg.S.x,time-elapsed_(2),0.027951726,seconds
+2,mg.S.x,iTLB-load-misses,"2,631"
+2,mg.S.x,branch-loads,"134,582,461"
+2,mg.S.x,branch-load-misses,"142,455"
+2,mg.S.x,node-loads,<not supported>
+2,mg.S.x,node-load-misses,<not supported>
+2,mg.S.x,node-stores,<not supported>
+2,mg.S.x,node-store-misses,<not supported>
+2,mg.S.x,node-prefetches,<not supported>
+2,mg.S.x,node-prefetch-misses,<not supported>
+2,mg.S.x,time-elapsed_(2),0.037386177,seconds
+2,sp.S.x,cpu-cycles,"1,336,188,033",2.464 GHz,(34.04%)
+2,sp.S.x,instructions,"588,515,506",0.44,insn per cycle
+2,sp.S.x,stalled cycles per insn,0.42,(41.36%)
+2,sp.S.x,cache-references,"4,754,628",8.769 M/sec,(41.78%)
+2,sp.S.x,cache-misses,"202,992",4.269 % of all cache refs,(30.67%)
+2,sp.S.x,branch-instructions,"178,571,778",329.339 M/sec,(42.41%)
+2,sp.S.x,branch-misses,"182,304",0.10% of all branches,(54.19%)
+2,sp.S.x,bus-cycles,<not supported>
+2,sp.S.x,stalled-cycles-frontend,"105,130,547",7.87% frontend cycles idle,(47.03%)
+2,sp.S.x,stalled-cycles-backend,"246,722,481",18.46% backend cycles idle,(46.48%)
+2,sp.S.x,ref-cycles,<not supported>
+2,sp.S.x,cpu-clock,542.19,msec,13.266 CPUs utilized
+2,sp.S.x,task-clock,542.24,msec,13.267 CPUs utilized
+2,sp.S.x,page-faults,416,0.767 K/sec
+2,sp.S.x,context-switches,145,0.267 K/sec
+2,sp.S.x,cpu-migrations,21,0.039 K/sec
+2,sp.S.x,minor-faults,416,0.767 K/sec
+2,sp.S.x,major-faults,0,0.000 K/sec
+2,sp.S.x,L1-dcache-loads,"277,790,661",512.328 M/sec,(57.51%)
+2,sp.S.x,L1-dcache-load-misses,"7,151,524",2.57% of all L1-dcache hits,(55.44%)
+2,sp.S.x,L1-dcache-stores,<not supported>
+2,sp.S.x,time-elapsed_(2),0.040869998,seconds
+2,sp.S.x,L1-dcache-store-misses,<not supported>
+2,sp.S.x,L1-dcache-prefetches,"4,991,416",(1.73%)
+2,sp.S.x,L1-dcache-prefetch-misses,0,(10.33%)
+2,sp.S.x,L1-icache-loads,"185,693,154",(21.50%)
+2,sp.S.x,L1-icache-load-misses,"179,172",0.10% of all L1-icache hits,(25.75%)
+2,sp.S.x,L1-icache-prefetches,226,(38.37%)
+2,sp.S.x,L1-icache-prefetch-misses,<not supported>
+2,sp.S.x,LLC-loads,"4,993,402",(38.41%)
+2,sp.S.x,LLC-load-misses,"768,686",15.39% of all LL-cache hits,(38.26%)
+2,sp.S.x,LLC-stores,"2,513,543",(23.17%)
+2,sp.S.x,LLC-store-misses,<not supported>
+2,sp.S.x,LLC-prefetches,<not supported>
+2,sp.S.x,LLC-prefetch-misses,<not supported>
+2,sp.S.x,dTLB-loads,"264,128,244",(32.59%)
+2,sp.S.x,dTLB-load-misses,"13,360",0.01% of all dTLB cache hits,(25.61%)
+2,sp.S.x,dTLB-stores,<not supported>
+2,sp.S.x,dTLB-store-misses,<not supported>
+2,sp.S.x,dTLB-prefetches,<not supported>
+2,sp.S.x,dTLB-prefetch-misses,<not supported>
+2,sp.S.x,iTLB-loads,"110,521,469",(15.23%)
+2,sp.S.x,time-elapsed_(2),0.040051809,seconds
+2,sp.S.x,iTLB-load-misses,"3,707"
+2,sp.S.x,branch-loads,"95,098,183"
+2,sp.S.x,branch-load-misses,"233,916"
+2,sp.S.x,node-loads,<not supported>
+2,sp.S.x,node-load-misses,<not supported>
+2,sp.S.x,node-stores,<not supported>
+2,sp.S.x,node-store-misses,<not supported>
+2,sp.S.x,node-prefetches,<not supported>
+2,sp.S.x,node-prefetch-misses,<not supported>
+2,sp.S.x,time-elapsed_(2),0.034603050,seconds
+2,ua.S.x,cpu-cycles,"13,971,481,490",2.488 GHz,(39.14%)
+2,ua.S.x,instructions,"5,576,241,516",0.40,insn per cycle
+2,ua.S.x,stalled cycles per insn,0.49,(48.88%)
+2,ua.S.x,cache-references,"74,116,066",13.196 M/sec,(48.91%)
+2,ua.S.x,cache-misses,"9,092,624",12.268 % of all cache refs,(30.16%)
+2,ua.S.x,branch-instructions,"916,178,047",163.121 M/sec,(40.39%)
+2,ua.S.x,branch-misses,"3,440,662",0.38% of all branches,(50.63%)
+2,ua.S.x,bus-cycles,<not supported>
+2,ua.S.x,stalled-cycles-frontend,"632,802,934",4.53% frontend cycles idle,(40.88%)
+2,ua.S.x,stalled-cycles-backend,"2,731,078,007",19.55% backend cycles idle,(40.91%)
+2,ua.S.x,ref-cycles,<not supported>
+2,ua.S.x,cpu-clock,"5,616.47",msec,15.692 CPUs utilized
+2,ua.S.x,task-clock,"5,616.67",msec,15.693 CPUs utilized
+2,ua.S.x,page-faults,"1,575",0.280 K/sec
+2,ua.S.x,context-switches,715,0.127 K/sec
+2,ua.S.x,cpu-migrations,18,0.003 K/sec
+2,ua.S.x,minor-faults,"1,575",0.280 K/sec
+2,ua.S.x,major-faults,0,0.000 K/sec
+2,ua.S.x,L1-dcache-loads,"2,965,771,996",528.040 M/sec,(51.02%)
+2,ua.S.x,L1-dcache-load-misses,"52,872,002",1.78% of all L1-dcache hits,(50.48%)
+2,ua.S.x,L1-dcache-stores,<not supported>
+2,ua.S.x,time-elapsed_(2),0.357911616,seconds
+2,ua.S.x,L1-dcache-store-misses,<not supported>
+2,ua.S.x,L1-dcache-prefetches,"127,897,582",(16.96%)
+2,ua.S.x,L1-dcache-prefetch-misses,0,(17.11%)
+2,ua.S.x,L1-icache-loads,"1,388,885,343",(18.20%)
+2,ua.S.x,L1-icache-load-misses,"1,783,739",0.13% of all L1-icache hits,(18.53%)
+2,ua.S.x,L1-icache-prefetches,"3,075",(27.80%)
+2,ua.S.x,L1-icache-prefetch-misses,<not supported>
+2,ua.S.x,LLC-loads,"75,002,878",(27.80%)
+2,ua.S.x,LLC-load-misses,"9,189,727",12.25% of all LL-cache hits,(27.80%)
+2,ua.S.x,LLC-stores,"26,187,085",(18.53%)
+2,ua.S.x,LLC-store-misses,<not supported>
+2,ua.S.x,LLC-prefetches,<not supported>
+2,ua.S.x,LLC-prefetch-misses,<not supported>
+2,ua.S.x,dTLB-loads,"2,875,462,796",(27.80%)
+2,ua.S.x,dTLB-load-misses,"26,047",0.00% of all dTLB cache hits,(27.78%)
+2,ua.S.x,dTLB-stores,<not supported>
+2,ua.S.x,dTLB-store-misses,<not supported>
+2,ua.S.x,dTLB-prefetches,<not supported>
+2,ua.S.x,dTLB-prefetch-misses,<not supported>
+2,ua.S.x,iTLB-loads,"1,396,810,791",(27.30%)
+2,ua.S.x,time-elapsed_(2),0.352234161,seconds
+2,ua.S.x,iTLB-load-misses,"3,865"
+2,ua.S.x,branch-loads,"910,592,819"
+2,ua.S.x,branch-load-misses,"3,240,636"
+2,ua.S.x,node-loads,<not supported>
+2,ua.S.x,node-load-misses,<not supported>
+2,ua.S.x,node-stores,<not supported>
+2,ua.S.x,node-store-misses,<not supported>
+2,ua.S.x,node-prefetches,<not supported>
+2,ua.S.x,node-prefetch-misses,<not supported>
+2,ua.S.x,time-elapsed_(2),0.377843464,seconds
+3,bt.S.x,cpu-cycles,"1,044,905,887",2.201 GHz,(19.87%)
+3,bt.S.x,instructions,"718,042,441",0.69,insn per cycle
+3,bt.S.x,stalled cycles per insn,0.21,(33.62%)
+3,bt.S.x,cache-references,"3,670,914",7.733 M/sec,(39.90%)
+3,bt.S.x,cache-misses,"248,248",6.763 % of all cache refs,(40.56%)
+3,bt.S.x,branch-instructions,"89,859,745",189.288 M/sec,(54.01%)
+3,bt.S.x,branch-misses,"127,012",0.14% of all branches,(67.48%)
+3,bt.S.x,bus-cycles,<not supported>
+3,bt.S.x,stalled-cycles-frontend,"57,974,052",5.55% frontend cycles idle,(52.94%)
+3,bt.S.x,stalled-cycles-backend,"149,776,488",14.33% backend cycles idle,(46.73%)
+3,bt.S.x,ref-cycles,<not supported>
+3,bt.S.x,cpu-clock,474.71,msec,12.705 CPUs utilized
+3,bt.S.x,task-clock,474.74,msec,12.706 CPUs utilized
+3,bt.S.x,page-faults,463,0.975 K/sec
+3,bt.S.x,context-switches,141,0.297 K/sec
+3,bt.S.x,cpu-migrations,21,0.044 K/sec
+3,bt.S.x,minor-faults,463,0.975 K/sec
+3,bt.S.x,major-faults,0,0.000 K/sec
+3,bt.S.x,L1-dcache-loads,"444,488,224",936.306 M/sec,(51.95%)
+3,bt.S.x,L1-dcache-load-misses,"6,887,447",1.55% of all L1-dcache hits,(38.95%)
+3,bt.S.x,L1-dcache-stores,<not supported>
+3,bt.S.x,time-elapsed_(3),0.037362905,seconds
+3,bt.S.x,L1-dcache-store-misses,<not supported>
+3,bt.S.x,L1-dcache-prefetches,"979,980",(0.87%)
+3,bt.S.x,L1-dcache-prefetch-misses,0,(5.88%)
+3,bt.S.x,L1-icache-loads,"166,302,601",(18.89%)
+3,bt.S.x,L1-icache-load-misses,"229,638",0.14% of all L1-icache hits,(26.17%)
+3,bt.S.x,L1-icache-prefetches,354,(39.18%)
+3,bt.S.x,L1-icache-prefetch-misses,<not supported>
+3,bt.S.x,LLC-loads,"5,640,375",(39.23%)
+3,bt.S.x,LLC-load-misses,"358,549",6.36% of all LL-cache hits,(39.22%)
+3,bt.S.x,LLC-stores,"1,438,636",(25.48%)
+3,bt.S.x,LLC-store-misses,<not supported>
+3,bt.S.x,LLC-prefetches,<not supported>
+3,bt.S.x,LLC-prefetch-misses,<not supported>
+3,bt.S.x,dTLB-loads,"475,444,907",(34.83%)
+3,bt.S.x,dTLB-load-misses,"11,870",0.00% of all dTLB cache hits,(27.91%)
+3,bt.S.x,dTLB-stores,<not supported>
+3,bt.S.x,dTLB-store-misses,<not supported>
+3,bt.S.x,dTLB-prefetches,<not supported>
+3,bt.S.x,dTLB-prefetch-misses,<not supported>
+3,bt.S.x,iTLB-loads,"175,898,253",(16.35%)
+3,bt.S.x,time-elapsed_(3),0.037850688,seconds
+3,bt.S.x,iTLB-load-misses,"3,546"
+3,bt.S.x,branch-loads,"95,519,412"
+3,bt.S.x,branch-load-misses,"150,554"
+3,bt.S.x,node-loads,<not supported>
+3,bt.S.x,node-load-misses,<not supported>
+3,bt.S.x,node-stores,<not supported>
+3,bt.S.x,node-store-misses,<not supported>
+3,bt.S.x,node-prefetches,<not supported>
+3,bt.S.x,node-prefetch-misses,<not supported>
+3,bt.S.x,time-elapsed_(3),0.039580601,seconds
+3,cg.A.x,cpu-cycles,"12,326,494,370",2.464 GHz,(38.80%)
+3,cg.A.x,instructions,"9,605,578,443",0.78,insn per cycle
+3,cg.A.x,stalled cycles per insn,0.17,(49.15%)
+3,cg.A.x,cache-references,"854,026,364",170.696 M/sec,(49.42%)
+3,cg.A.x,cache-misses,"78,768,091",9.223 % of all cache refs,(30.72%)
+3,cg.A.x,branch-instructions,"1,688,320,413",337.449 M/sec,(40.90%)
+3,cg.A.x,branch-misses,"17,580,533",1.04% of all branches,(51.04%)
+3,cg.A.x,bus-cycles,<not supported>
+3,cg.A.x,stalled-cycles-frontend,"849,642,641",6.89% frontend cycles idle,(40.68%)
+3,cg.A.x,stalled-cycles-backend,"1,609,562,118",13.06% backend cycles idle,(40.38%)
+3,cg.A.x,ref-cycles,<not supported>
+3,cg.A.x,cpu-clock,"5,003.12",msec,15.082 CPUs utilized
+3,cg.A.x,task-clock,"5,003.26",msec,15.083 CPUs utilized
+3,cg.A.x,page-faults,"12,295",0.002 M/sec
+3,cg.A.x,context-switches,651,0.130 K/sec
+3,cg.A.x,cpu-migrations,12,0.002 K/sec
+3,cg.A.x,minor-faults,"12,295",0.002 M/sec
+3,cg.A.x,major-faults,0,0.000 K/sec
+3,cg.A.x,L1-dcache-loads,"3,356,179,776",670.808 M/sec,(49.98%)
+3,cg.A.x,L1-dcache-load-misses,"735,064,330",21.90% of all L1-dcache hits,(49.17%)
+3,cg.A.x,L1-dcache-stores,<not supported>
+3,cg.A.x,time-elapsed_(3),0.331722874,seconds
+3,cg.A.x,L1-dcache-store-misses,<not supported>
+3,cg.A.x,L1-dcache-prefetches,"423,453,296",(17.92%)
+3,cg.A.x,L1-dcache-prefetch-misses,0,(18.31%)
+3,cg.A.x,L1-icache-loads,"2,707,313,447",(19.14%)
+3,cg.A.x,L1-icache-load-misses,"1,198,409",0.04% of all L1-icache hits,(19.20%)
+3,cg.A.x,L1-icache-prefetches,"128,706",(28.41%)
+3,cg.A.x,L1-icache-prefetch-misses,<not supported>
+3,cg.A.x,LLC-loads,"794,690,098",(27.59%)
+3,cg.A.x,LLC-load-misses,"76,815,761",9.67% of all LL-cache hits,(26.98%)
+3,cg.A.x,LLC-stores,"146,122,360",(17.64%)
+3,cg.A.x,LLC-store-misses,<not supported>
+3,cg.A.x,LLC-prefetches,<not supported>
+3,cg.A.x,LLC-prefetch-misses,<not supported>
+3,cg.A.x,dTLB-loads,"3,275,831,702",(26.47%)
+3,cg.A.x,dTLB-load-misses,"269,909",0.01% of all dTLB cache hits,(26.52%)
+3,cg.A.x,dTLB-stores,<not supported>
+3,cg.A.x,dTLB-store-misses,<not supported>
+3,cg.A.x,dTLB-prefetches,<not supported>
+3,cg.A.x,dTLB-prefetch-misses,<not supported>
+3,cg.A.x,iTLB-loads,"2,774,671,738",(26.70%)
+3,cg.A.x,time-elapsed_(3),0.337991702,seconds
+3,cg.A.x,iTLB-load-misses,"3,464"
+3,cg.A.x,branch-loads,"1,734,933,473"
+3,cg.A.x,branch-load-misses,"16,243,635"
+3,cg.A.x,node-loads,<not supported>
+3,cg.A.x,node-load-misses,<not supported>
+3,cg.A.x,node-stores,<not supported>
+3,cg.A.x,node-store-misses,<not supported>
+3,cg.A.x,node-prefetches,<not supported>
+3,cg.A.x,node-prefetch-misses,<not supported>
+3,cg.A.x,time-elapsed_(3),0.333779448,seconds
+3,dc.S.x,cpu-cycles,"436,874,118",2.071 GHz,(16.01%)
+3,dc.S.x,instructions,"388,525,558",0.89,insn per cycle
+3,dc.S.x,stalled cycles per insn,0.25,(21.72%)
+3,dc.S.x,cache-references,"7,816,092",37.061 M/sec,(23.19%)
+3,dc.S.x,cache-misses,"893,081",11.426 % of all cache refs,(17.10%)
+3,dc.S.x,branch-instructions,"75,639,541",358.650 M/sec,(34.87%)
+3,dc.S.x,branch-misses,"854,179",1.13% of all branches,(63.74%)
+3,dc.S.x,bus-cycles,<not supported>
+3,dc.S.x,stalled-cycles-frontend,"41,507,134",9.50% frontend cycles idle,(72.59%)
+3,dc.S.x,stalled-cycles-backend,"98,515,368",22.55% backend cycles idle,(71.11%)
+3,dc.S.x,ref-cycles,<not supported>
+3,dc.S.x,cpu-clock,210.87,msec,1.441 CPUs utilized
+3,dc.S.x,task-clock,210.94,msec,1.441 CPUs utilized
+3,dc.S.x,page-faults,"9,052",0.043 M/sec
+3,dc.S.x,context-switches,110,0.522 K/sec
+3,dc.S.x,cpu-migrations,20,0.095 K/sec
+3,dc.S.x,minor-faults,"9,052",0.043 M/sec
+3,dc.S.x,major-faults,0,0.000 K/sec
+3,dc.S.x,L1-dcache-loads,"115,016,045",545.357 M/sec,(74.91%)
+3,dc.S.x,L1-dcache-load-misses,"2,709,175",2.36% of all L1-dcache hits,(60.95%)
+3,dc.S.x,L1-dcache-stores,<not supported>
+3,dc.S.x,time-elapsed_(3),0.146337306,seconds
+3,dc.S.x,L1-dcache-store-misses,<not supported>
+3,dc.S.x,L1-dcache-prefetches,"4,885,928",(20.67%)
+3,dc.S.x,L1-dcache-prefetch-misses,0,(48.63%)
+3,dc.S.x,L1-icache-loads,"59,438,991",(50.33%)
+3,dc.S.x,L1-icache-load-misses,"765,794",1.29% of all L1-icache hits,(24.01%)
+3,dc.S.x,L1-icache-prefetches,"45,176",(27.93%)
+3,dc.S.x,L1-icache-prefetch-misses,<not supported>
+3,dc.S.x,LLC-loads,"7,313,303",(13.37%)
+3,dc.S.x,LLC-load-misses,"1,697,929",23.22% of all LL-cache hits,(11.73%)
+3,dc.S.x,LLC-stores,"4,790,391",(7.83%)
+3,dc.S.x,LLC-store-misses,<not supported>
+3,dc.S.x,LLC-prefetches,<not supported>
+3,dc.S.x,LLC-prefetch-misses,<not supported>
+3,dc.S.x,dTLB-loads,"188,235,811",(11.73%)
+3,dc.S.x,dTLB-load-misses,"116,721",0.06% of all dTLB cache hits,(11.72%)
+3,dc.S.x,dTLB-stores,<not supported>
+3,dc.S.x,dTLB-store-misses,<not supported>
+3,dc.S.x,dTLB-prefetches,<not supported>
+3,dc.S.x,dTLB-prefetch-misses,<not supported>
+3,dc.S.x,iTLB-loads,"113,551,891",(11.72%)
+3,dc.S.x,time-elapsed_(3),0.142515566,seconds
+3,dc.S.x,iTLB-load-misses,"1,413"
+3,dc.S.x,branch-loads,"61,155,852"
+3,dc.S.x,branch-load-misses,"742,902"
+3,dc.S.x,node-loads,<not supported>
+3,dc.S.x,node-load-misses,<not supported>
+3,dc.S.x,node-stores,<not supported>
+3,dc.S.x,node-store-misses,<not supported>
+3,dc.S.x,node-prefetches,<not supported>
+3,dc.S.x,node-prefetch-misses,<not supported>
+3,dc.S.x,time-elapsed_(3),0.114482347,seconds
+3,ep.A.x,cpu-cycles,"44,989,916,084",2.484 GHz,(39.61%)
+3,ep.A.x,instructions,"27,965,616,249",0.62,insn per cycle
+3,ep.A.x,stalled cycles per insn,0.37,(49.52%)
+3,ep.A.x,cache-references,"148,368,181",8.192 M/sec,(49.57%)
+3,ep.A.x,cache-misses,"3,731,508",2.515 % of all cache refs,(29.97%)
+3,ep.A.x,branch-instructions,"2,825,385,288",156.000 M/sec,(40.14%)
+3,ep.A.x,branch-misses,"73,398,834",2.60% of all branches,(50.35%)
+3,ep.A.x,bus-cycles,<not supported>
+3,ep.A.x,stalled-cycles-frontend,"643,886,045",1.43% frontend cycles idle,(40.52%)
+3,ep.A.x,stalled-cycles-backend,"10,299,376,831",22.89% backend cycles idle,(40.35%)
+3,ep.A.x,ref-cycles,<not supported>
+3,ep.A.x,cpu-clock,"18,111.23",msec,15.128 CPUs utilized
+3,ep.A.x,task-clock,"18,111.62",msec,15.129 CPUs utilized
+3,ep.A.x,page-faults,"4,351",0.240 K/sec
+3,ep.A.x,context-switches,"2,182",0.120 K/sec
+3,ep.A.x,cpu-migrations,29,0.002 K/sec
+3,ep.A.x,minor-faults,"4,351",0.240 K/sec
+3,ep.A.x,major-faults,0,0.000 K/sec
+3,ep.A.x,L1-dcache-loads,"10,668,643,507",589.056 M/sec,(50.24%)
+3,ep.A.x,L1-dcache-load-misses,"12,835,541",0.12% of all L1-dcache hits,(49.95%)
+3,ep.A.x,L1-dcache-stores,<not supported>
+3,ep.A.x,time-elapsed_(3),1.197163105,seconds
+3,ep.A.x,L1-dcache-store-misses,<not supported>
+3,ep.A.x,L1-dcache-prefetches,"134,417,401",(18.11%)
+3,ep.A.x,L1-dcache-prefetch-misses,0,(17.96%)
+3,ep.A.x,L1-icache-loads,"7,716,953,676",(17.91%)
+3,ep.A.x,L1-icache-load-misses,"2,052,555",0.03% of all L1-icache hits,(17.95%)
+3,ep.A.x,L1-icache-prefetches,"30,114",(27.06%)
+3,ep.A.x,L1-icache-prefetch-misses,<not supported>
+3,ep.A.x,LLC-loads,"148,799,287",(27.26%)
+3,ep.A.x,LLC-load-misses,"3,349,278",2.25% of all LL-cache hits,(27.44%)
+3,ep.A.x,LLC-stores,"60,747,832",(18.37%)
+3,ep.A.x,LLC-store-misses,<not supported>
+3,ep.A.x,LLC-prefetches,<not supported>
+3,ep.A.x,LLC-prefetch-misses,<not supported>
+3,ep.A.x,dTLB-loads,"10,662,705,602",(27.56%)
+3,ep.A.x,dTLB-load-misses,"19,080",0.00% of all dTLB cache hits,(27.55%)
+3,ep.A.x,dTLB-stores,<not supported>
+3,ep.A.x,dTLB-store-misses,<not supported>
+3,ep.A.x,dTLB-prefetches,<not supported>
+3,ep.A.x,dTLB-prefetch-misses,<not supported>
+3,ep.A.x,iTLB-loads,"7,712,454,214",(27.46%)
+3,ep.A.x,time-elapsed_(3),1.173037143,seconds
+3,ep.A.x,iTLB-load-misses,"2,560"
+3,ep.A.x,branch-loads,"2,811,868,415"
+3,ep.A.x,branch-load-misses,"73,538,415"
+3,ep.A.x,node-loads,<not supported>
+3,ep.A.x,node-load-misses,<not supported>
+3,ep.A.x,node-stores,<not supported>
+3,ep.A.x,node-store-misses,<not supported>
+3,ep.A.x,node-prefetches,<not supported>
+3,ep.A.x,node-prefetch-misses,<not supported>
+3,ep.A.x,time-elapsed_(3),1.152938012,seconds
+3,ft.S.x,cpu-cycles,"1,331,225,998",2.480 GHz,(35.99%)
+3,ft.S.x,instructions,"1,142,639,887",0.86,insn per cycle
+3,ft.S.x,stalled cycles per insn,0.18,(42.32%)
+3,ft.S.x,cache-references,"33,857,987",63.063 M/sec,(42.54%)
+3,ft.S.x,cache-misses,"533,734",1.576 % of all cache refs,(29.28%)
+3,ft.S.x,branch-instructions,"159,143,351",296.417 M/sec,(41.20%)
+3,ft.S.x,branch-misses,"492,458",0.31% of all branches,(52.54%)
+3,ft.S.x,bus-cycles,<not supported>
+3,ft.S.x,stalled-cycles-frontend,"87,150,387",6.55% frontend cycles idle,(45.81%)
+3,ft.S.x,stalled-cycles-backend,"204,997,219",15.40% backend cycles idle,(46.39%)
+3,ft.S.x,ref-cycles,<not supported>
+3,ft.S.x,cpu-clock,536.86,msec,12.123 CPUs utilized
+3,ft.S.x,task-clock,536.92,msec,12.124 CPUs utilized
+3,ft.S.x,page-faults,"3,141",0.006 M/sec
+3,ft.S.x,context-switches,171,0.319 K/sec
+3,ft.S.x,cpu-migrations,39,0.073 K/sec
+3,ft.S.x,minor-faults,"3,141",0.006 M/sec
+3,ft.S.x,major-faults,0,0.000 K/sec
+3,ft.S.x,L1-dcache-loads,"415,382,226",773.683 M/sec,(56.20%)
+3,ft.S.x,L1-dcache-load-misses,"10,820,233",2.60% of all L1-dcache hits,(53.34%)
+3,ft.S.x,L1-dcache-stores,<not supported>
+3,ft.S.x,time-elapsed_(3),0.044284409,seconds
+3,ft.S.x,L1-dcache-store-misses,<not supported>
+3,ft.S.x,L1-dcache-prefetches,"4,475,833",(6.61%)
+3,ft.S.x,L1-dcache-prefetch-misses,0,(19.92%)
+3,ft.S.x,L1-icache-loads,"159,158,598",(26.10%)
+3,ft.S.x,L1-icache-load-misses,"153,623",0.10% of all L1-icache hits,(26.05%)
+3,ft.S.x,L1-icache-prefetches,"1,492",(39.12%)
+3,ft.S.x,L1-icache-prefetch-misses,<not supported>
+3,ft.S.x,LLC-loads,"37,385,858",(39.49%)
+3,ft.S.x,LLC-load-misses,"1,126,429",3.01% of all LL-cache hits,(39.08%)
+3,ft.S.x,LLC-stores,"2,210,297",(23.35%)
+3,ft.S.x,LLC-store-misses,<not supported>
+3,ft.S.x,LLC-prefetches,<not supported>
+3,ft.S.x,LLC-prefetch-misses,<not supported>
+3,ft.S.x,dTLB-loads,"423,727,505",(27.81%)
+3,ft.S.x,dTLB-load-misses,"44,768",0.01% of all dTLB cache hits,(14.95%)
+3,ft.S.x,dTLB-stores,<not supported>
+3,ft.S.x,dTLB-store-misses,<not supported>
+3,ft.S.x,dTLB-prefetches,<not supported>
+3,ft.S.x,dTLB-prefetch-misses,<not supported>
+3,ft.S.x,iTLB-loads,"177,234,894",(4.46%)
+3,ft.S.x,time-elapsed_(3),0.040974731,seconds
+3,ft.S.x,iTLB-load-misses,"2,452"
+3,ft.S.x,branch-loads,"111,632,566"
+3,ft.S.x,branch-load-misses,"1,015,708"
+3,ft.S.x,node-loads,<not supported>
+3,ft.S.x,node-load-misses,<not supported>
+3,ft.S.x,node-stores,<not supported>
+3,ft.S.x,node-store-misses,<not supported>
+3,ft.S.x,node-prefetches,<not supported>
+3,ft.S.x,node-prefetch-misses,<not supported>
+3,ft.S.x,time-elapsed_(3),0.041072501,seconds
+3,is.S.x,cpu-cycles,"622,177,625",1.913 GHz,(14.20%)
+3,is.S.x,instructions,"377,824,108",0.61,insn per cycle
+3,is.S.x,stalled cycles per insn,0.42,(34.53%)
+3,is.S.x,cache-references,"928,908",2.856 M/sec,(53.73%)
+3,is.S.x,cache-misses,"227,353",24.475 % of all cache refs,(58.69%)
+3,is.S.x,branch-instructions,"106,334,543",326.980 M/sec,(71.31%)
+3,is.S.x,branch-misses,"71,470",0.07% of all branches,(79.46%)
+3,is.S.x,bus-cycles,<not supported>
+3,is.S.x,stalled-cycles-frontend,"57,728,695",9.28% frontend cycles idle,(44.25%)
+3,is.S.x,stalled-cycles-backend,"159,312,958",25.61% backend cycles idle,(29.13%)
+3,is.S.x,ref-cycles,<not supported>
+3,is.S.x,cpu-clock,325.18,msec,10.572 CPUs utilized
+3,is.S.x,task-clock,325.22,msec,10.573 CPUs utilized
+3,is.S.x,page-faults,318,0.978 K/sec
+3,is.S.x,context-switches,122,0.375 K/sec
+3,is.S.x,cpu-migrations,36,0.111 K/sec
+3,is.S.x,minor-faults,318,0.978 K/sec
+3,is.S.x,major-faults,0,0.000 K/sec
+3,is.S.x,L1-dcache-loads,"164,982,253",507.323 M/sec,(29.13%)
+3,is.S.x,L1-dcache-load-misses,"2,059,915",1.25% of all L1-dcache hits,(16.51%)
+3,is.S.x,L1-dcache-stores,<not supported>
+3,is.S.x,time-elapsed_(3),0.030759360,seconds
+3,is.S.x,L1-dcache-store-misses,<not supported>
+3,is.S.x,L1-dcache-prefetches,"6,587,807",(0.11%)
+3,is.S.x,L1-dcache-prefetch-misses,0,(6.08%)
+3,is.S.x,L1-icache-loads,"100,730,053",(22.76%)
+3,is.S.x,L1-icache-load-misses,"99,269",0.10% of all L1-icache hits,(33.91%)
+3,is.S.x,L1-icache-prefetches,284,(50.34%)
+3,is.S.x,L1-icache-prefetch-misses,<not supported>
+3,is.S.x,LLC-loads,"884,501",(48.74%)
+3,is.S.x,LLC-load-misses,"353,807",40.00% of all LL-cache hits,(45.59%)
+3,is.S.x,LLC-stores,"950,402",(22.51%)
+3,is.S.x,LLC-store-misses,<not supported>
+3,is.S.x,LLC-prefetches,<not supported>
+3,is.S.x,LLC-prefetch-misses,<not supported>
+3,is.S.x,dTLB-loads,"209,901,411",(26.82%)
+3,is.S.x,dTLB-load-misses,"14,310",0.01% of all dTLB cache hits,(14.42%)
+3,is.S.x,dTLB-stores,<not supported>
+3,is.S.x,dTLB-store-misses,<not supported>
+3,is.S.x,dTLB-prefetches,<not supported>
+3,is.S.x,dTLB-prefetch-misses,<not supported>
+3,is.S.x,iTLB-loads,"107,316,016",(5.88%)
+3,is.S.x,time-elapsed_(3),0.035519002,seconds
+3,is.S.x,iTLB-load-misses,607
+3,is.S.x,branch-loads,"59,503,023"
+3,is.S.x,branch-load-misses,"65,366"
+3,is.S.x,node-loads,<not supported>
+3,is.S.x,node-load-misses,<not supported>
+3,is.S.x,node-stores,<not supported>
+3,is.S.x,node-store-misses,<not supported>
+3,is.S.x,node-prefetches,<not supported>
+3,is.S.x,node-prefetch-misses,<not supported>
+3,is.S.x,time-elapsed_(3),0.024182451,seconds
+3,lu.S.x,cpu-cycles,"1,409,625,424",2.412 GHz,(32.52%)
+3,lu.S.x,instructions,"957,745,250",0.68,insn per cycle
+3,lu.S.x,stalled cycles per insn,0.11,(42.43%)
+3,lu.S.x,cache-references,"3,662,687",6.268 M/sec,(45.09%)
+3,lu.S.x,cache-misses,"293,168",8.004 % of all cache refs,(34.73%)
+3,lu.S.x,branch-instructions,"226,038,817",386.807 M/sec,(46.17%)
+3,lu.S.x,branch-misses,"192,650",0.09% of all branches,(56.57%)
+3,lu.S.x,bus-cycles,<not supported>
+3,lu.S.x,stalled-cycles-frontend,"109,644,855",7.78% frontend cycles idle,(44.09%)
+3,lu.S.x,stalled-cycles-backend,"83,124,892",5.90% backend cycles idle,(43.57%)
+3,lu.S.x,ref-cycles,<not supported>
+3,lu.S.x,cpu-clock,584.34,msec,11.885 CPUs utilized
+3,lu.S.x,task-clock,584.40,msec,11.886 CPUs utilized
+3,lu.S.x,page-faults,385,0.659 K/sec
+3,lu.S.x,context-switches,253,0.433 K/sec
+3,lu.S.x,cpu-migrations,55,0.094 K/sec
+3,lu.S.x,minor-faults,385,0.659 K/sec
+3,lu.S.x,major-faults,0,0.000 K/sec
+3,lu.S.x,L1-dcache-loads,"404,792,159",692.697 M/sec,(52.34%)
+3,lu.S.x,L1-dcache-load-misses,"2,802,686",0.69% of all L1-dcache hits,(47.70%)
+3,lu.S.x,L1-dcache-stores,<not supported>
+3,lu.S.x,time-elapsed_(3),0.049166166,seconds
+3,lu.S.x,L1-dcache-store-misses,<not supported>
+3,lu.S.x,L1-dcache-prefetches,"6,204,704",(0.10%)
+3,lu.S.x,L1-dcache-prefetch-misses,0,(7.29%)
+3,lu.S.x,L1-icache-loads,"113,005,027",(23.50%)
+3,lu.S.x,L1-icache-load-misses,"164,368",0.15% of all L1-icache hits,(32.66%)
+3,lu.S.x,L1-icache-prefetches,184,(48.88%)
+3,lu.S.x,L1-icache-prefetch-misses,<not supported>
+3,lu.S.x,LLC-loads,"2,596,834",(48.92%)
+3,lu.S.x,LLC-load-misses,"349,804",13.47% of all LL-cache hits,(46.64%)
+3,lu.S.x,LLC-stores,"1,252,126",(22.94%)
+3,lu.S.x,LLC-store-misses,<not supported>
+3,lu.S.x,LLC-prefetches,<not supported>
+3,lu.S.x,LLC-prefetch-misses,<not supported>
+3,lu.S.x,dTLB-loads,"285,247,983",(27.48%)
+3,lu.S.x,dTLB-load-misses,"24,860",0.01% of all dTLB cache hits,(13.41%)
+3,lu.S.x,dTLB-stores,<not supported>
+3,lu.S.x,dTLB-store-misses,<not supported>
+3,lu.S.x,dTLB-prefetches,<not supported>
+3,lu.S.x,dTLB-prefetch-misses,<not supported>
+3,lu.S.x,iTLB-loads,"99,587,664",(4.54%)
+3,lu.S.x,time-elapsed_(3),0.032052552,seconds
+3,lu.S.x,iTLB-load-misses,"3,553"
+3,lu.S.x,branch-loads,"145,183,971"
+3,lu.S.x,branch-load-misses,"143,617"
+3,lu.S.x,node-loads,<not supported>
+3,lu.S.x,node-load-misses,<not supported>
+3,lu.S.x,node-stores,<not supported>
+3,lu.S.x,node-store-misses,<not supported>
+3,lu.S.x,node-prefetches,<not supported>
+3,lu.S.x,node-prefetch-misses,<not supported>
+3,lu.S.x,time-elapsed_(3),0.034695974,seconds
+3,mg.S.x,cpu-cycles,"353,382,765",1.678 GHz,(0.68%)
+3,mg.S.x,instructions,"236,778,341",0.67,insn per cycle
+3,mg.S.x,stalled cycles per insn,0.21,(22.97%)
+3,mg.S.x,cache-references,"1,188,761",5.646 M/sec,(52.89%)
+3,mg.S.x,cache-misses,"164,552",13.842 % of all cache refs,(80.98%)
+3,mg.S.x,branch-instructions,"58,227,473",276.559 M/sec,(97.63%)
+3,mg.S.x,branch-misses,"113,927",0.20% of all branches,(99.32%)
+3,mg.S.x,bus-cycles,<not supported>
+3,mg.S.x,stalled-cycles-frontend,"50,807,468",14.38% frontend cycles idle,(47.11%)
+3,mg.S.x,stalled-cycles-backend,"45,128,709",12.77% backend cycles idle,(18.34%)
+3,mg.S.x,ref-cycles,<not supported>
+3,mg.S.x,cpu-clock,210.53,msec,11.029 CPUs utilized
+3,mg.S.x,task-clock,210.56,msec,11.030 CPUs utilized
+3,mg.S.x,page-faults,592,0.003 M/sec
+3,mg.S.x,context-switches,98,0.465 K/sec
+3,mg.S.x,cpu-migrations,24,0.114 K/sec
+3,mg.S.x,minor-faults,592,0.003 M/sec
+3,mg.S.x,major-faults,0,0.000 K/sec
+3,mg.S.x,L1-dcache-loads,"104,662,475",497.109 M/sec,(18.34%)
+3,mg.S.x,L1-dcache-load-misses,"678,287",0.65% of all L1-dcache hits,(1.68%)
+3,mg.S.x,L1-dcache-stores,<not supported>
+3,mg.S.x,time-elapsed_(3),0.019089349,seconds
+3,mg.S.x,L1-dcache-store-misses,<not supported>
+3,mg.S.x,L1-dcache-prefetches,"1,846,026",(4.87%)
+3,mg.S.x,L1-dcache-prefetch-misses,0,(27.81%)
+3,mg.S.x,L1-icache-loads,"86,141,199",(44.55%)
+3,mg.S.x,L1-icache-load-misses,"122,346",0.14% of all L1-icache hits,(41.71%)
+3,mg.S.x,L1-icache-prefetches,"1,007",(57.76%)
+3,mg.S.x,L1-icache-prefetch-misses,<not supported>
+3,mg.S.x,LLC-loads,"1,432,193",(48.33%)
+3,mg.S.x,LLC-load-misses,"280,891",19.61% of all LL-cache hits,(30.47%)
+3,mg.S.x,LLC-stores,"262,304",(2.25%)
+3,mg.S.x,LLC-store-misses,<not supported>
+3,mg.S.x,LLC-prefetches,<not supported>
+3,mg.S.x,LLC-prefetch-misses,<not supported>
+3,mg.S.x,dTLB-loads,"197,888,482",(2.25%)
+3,mg.S.x,dTLB-load-misses,<not counted>,(0.00%)
+3,mg.S.x,dTLB-stores,<not supported>
+3,mg.S.x,dTLB-store-misses,<not supported>
+3,mg.S.x,dTLB-prefetches,<not supported>
+3,mg.S.x,dTLB-prefetch-misses,<not supported>
+3,mg.S.x,iTLB-loads,<not counted>,(0.00%)
+3,mg.S.x,time-elapsed_(3),0.025459281,seconds
+3,mg.S.x,iTLB-load-misses,"2,570"
+3,mg.S.x,branch-loads,"48,724,557"
+3,mg.S.x,branch-load-misses,"110,576"
+3,mg.S.x,node-loads,<not supported>
+3,mg.S.x,node-load-misses,<not supported>
+3,mg.S.x,node-stores,<not supported>
+3,mg.S.x,node-store-misses,<not supported>
+3,mg.S.x,node-prefetches,<not supported>
+3,mg.S.x,node-prefetch-misses,<not supported>
+3,mg.S.x,time-elapsed_(3),0.018811204,seconds
+3,sp.S.x,cpu-cycles,"1,119,231,351",2.398 GHz,(20.88%)
+3,sp.S.x,instructions,"544,837,220",0.49,insn per cycle
+3,sp.S.x,stalled cycles per insn,0.40,(31.78%)
+3,sp.S.x,cache-references,"2,601,318",5.573 M/sec,(33.71%)
+3,sp.S.x,cache-misses,"373,389",14.354 % of all cache refs,(38.26%)
+3,sp.S.x,branch-instructions,"109,520,010",234.624 M/sec,(51.91%)
+3,sp.S.x,branch-misses,"211,332",0.19% of all branches,(65.59%)
+3,sp.S.x,bus-cycles,<not supported>
+3,sp.S.x,stalled-cycles-frontend,"76,413,354",6.83% frontend cycles idle,(55.34%)
+3,sp.S.x,stalled-cycles-backend,"217,995,450",19.48% backend cycles idle,(51.81%)
+3,sp.S.x,ref-cycles,<not supported>
+3,sp.S.x,cpu-clock,466.76,msec,12.466 CPUs utilized
+3,sp.S.x,task-clock,466.82,msec,12.468 CPUs utilized
+3,sp.S.x,page-faults,433,0.928 K/sec
+3,sp.S.x,context-switches,159,0.341 K/sec
+3,sp.S.x,cpu-migrations,21,0.045 K/sec
+3,sp.S.x,minor-faults,433,0.928 K/sec
+3,sp.S.x,major-faults,0,0.000 K/sec
+3,sp.S.x,L1-dcache-loads,"242,782,153",520.110 M/sec,(58.62%)
+3,sp.S.x,L1-dcache-load-misses,"5,997,992",2.47% of all L1-dcache hits,(46.11%)
+3,sp.S.x,L1-dcache-stores,<not supported>
+3,sp.S.x,time-elapsed_(3),0.037441689,seconds
+3,sp.S.x,L1-dcache-store-misses,<not supported>
+3,sp.S.x,L1-dcache-prefetches,"2,977,172",(3.47%)
+3,sp.S.x,L1-dcache-prefetch-misses,0,(9.93%)
+3,sp.S.x,L1-icache-loads,"207,763,078",(21.12%)
+3,sp.S.x,L1-icache-load-misses,"170,306",0.08% of all L1-icache hits,(23.25%)
+3,sp.S.x,L1-icache-prefetches,220,(34.99%)
+3,sp.S.x,L1-icache-prefetch-misses,<not supported>
+3,sp.S.x,LLC-loads,"3,980,221",(34.99%)
+3,sp.S.x,LLC-load-misses,"737,455",18.53% of all LL-cache hits,(35.32%)
+3,sp.S.x,LLC-stores,"2,941,345",(23.27%)
+3,sp.S.x,LLC-store-misses,<not supported>
+3,sp.S.x,LLC-prefetches,<not supported>
+3,sp.S.x,LLC-prefetch-misses,<not supported>
+3,sp.S.x,dTLB-loads,"276,005,907",(33.33%)
+3,sp.S.x,dTLB-load-misses,"11,980",0.00% of all dTLB cache hits,(28.64%)
+3,sp.S.x,dTLB-stores,<not supported>
+3,sp.S.x,dTLB-store-misses,<not supported>
+3,sp.S.x,dTLB-prefetches,<not supported>
+3,sp.S.x,dTLB-prefetch-misses,<not supported>
+3,sp.S.x,iTLB-loads,"115,836,536",(20.02%)
+3,sp.S.x,time-elapsed_(3),0.042379140,seconds
+3,sp.S.x,iTLB-load-misses,"3,663"
+3,sp.S.x,branch-loads,"108,033,396"
+3,sp.S.x,branch-load-misses,"241,201"
+3,sp.S.x,node-loads,<not supported>
+3,sp.S.x,node-load-misses,<not supported>
+3,sp.S.x,node-stores,<not supported>
+3,sp.S.x,node-store-misses,<not supported>
+3,sp.S.x,node-prefetches,<not supported>
+3,sp.S.x,node-prefetch-misses,<not supported>
+3,sp.S.x,time-elapsed_(3),0.039584770,seconds
+3,ua.S.x,cpu-cycles,"14,053,116,191",2.488 GHz,(39.64%)
+3,ua.S.x,instructions,"5,554,056,292",0.40,insn per cycle
+3,ua.S.x,stalled cycles per insn,0.49,(49.17%)
+3,ua.S.x,cache-references,"74,082,471",13.114 M/sec,(49.12%)
+3,ua.S.x,cache-misses,"9,250,403",12.487 % of all cache refs,(29.81%)
+3,ua.S.x,branch-instructions,"902,630,475",159.781 M/sec,(40.00%)
+3,ua.S.x,branch-misses,"3,406,877",0.38% of all branches,(50.18%)
+3,ua.S.x,bus-cycles,<not supported>
+3,ua.S.x,stalled-cycles-frontend,"632,524,912",4.50% frontend cycles idle,(40.70%)
+3,ua.S.x,stalled-cycles-backend,"2,737,950,841",19.48% backend cycles idle,(40.73%)
+3,ua.S.x,ref-cycles,<not supported>
+3,ua.S.x,cpu-clock,"5,649.08",msec,15.485 CPUs utilized
+3,ua.S.x,task-clock,"5,649.29",msec,15.485 CPUs utilized
+3,ua.S.x,page-faults,"1,567",0.277 K/sec
+3,ua.S.x,context-switches,720,0.127 K/sec
+3,ua.S.x,cpu-migrations,31,0.005 K/sec
+3,ua.S.x,minor-faults,"1,567",0.277 K/sec
+3,ua.S.x,major-faults,0,0.000 K/sec
+3,ua.S.x,L1-dcache-loads,"2,937,622,625",520.008 M/sec,(50.87%)
+3,ua.S.x,L1-dcache-load-misses,"52,836,714",1.80% of all L1-dcache hits,(50.58%)
+3,ua.S.x,L1-dcache-stores,<not supported>
+3,ua.S.x,time-elapsed_(3),0.364818454,seconds
+3,ua.S.x,L1-dcache-store-misses,<not supported>
+3,ua.S.x,L1-dcache-prefetches,"130,027,908",(17.93%)
+3,ua.S.x,L1-dcache-prefetch-misses,0,(18.06%)
+3,ua.S.x,L1-icache-loads,"1,389,494,060",(18.64%)
+3,ua.S.x,L1-icache-load-misses,"1,686,303",0.12% of all L1-icache hits,(18.54%)
+3,ua.S.x,L1-icache-prefetches,"1,964",(27.59%)
+3,ua.S.x,L1-icache-prefetch-misses,<not supported>
+3,ua.S.x,LLC-loads,"72,387,069",(27.17%)
+3,ua.S.x,LLC-load-misses,"9,302,753",12.85% of all LL-cache hits,(27.18%)
+3,ua.S.x,LLC-stores,"26,470,849",(18.13%)
+3,ua.S.x,LLC-store-misses,<not supported>
+3,ua.S.x,LLC-prefetches,<not supported>
+3,ua.S.x,LLC-prefetch-misses,<not supported>
+3,ua.S.x,dTLB-loads,"2,957,927,633",(27.19%)
+3,ua.S.x,dTLB-load-misses,"19,302",0.00% of all dTLB cache hits,(27.18%)
+3,ua.S.x,dTLB-stores,<not supported>
+3,ua.S.x,dTLB-store-misses,<not supported>
+3,ua.S.x,dTLB-prefetches,<not supported>
+3,ua.S.x,dTLB-prefetch-misses,<not supported>
+3,ua.S.x,iTLB-loads,"1,409,480,870",(27.16%)
+3,ua.S.x,time-elapsed_(3),0.361783724,seconds
+3,ua.S.x,iTLB-load-misses,"4,633"
+3,ua.S.x,branch-loads,"885,570,245"
+3,ua.S.x,branch-load-misses,"3,230,011"
+3,ua.S.x,node-loads,<not supported>
+3,ua.S.x,node-load-misses,<not supported>
+3,ua.S.x,node-stores,<not supported>
+3,ua.S.x,node-store-misses,<not supported>
+3,ua.S.x,node-prefetches,<not supported>
+3,ua.S.x,node-prefetch-misses,<not supported>
+3,ua.S.x,time-elapsed_(3),0.361767381,seconds
